@@ -12,26 +12,26 @@ body {
   line-height: normal;
 }
 
-.theme-dropdown .dropdown-menu {
+.malikah-theme .theme-dropdown .dropdown-menu {
   position: static;
   display: block;
   margin-bottom: 20px;
 }
 
-.theme-showcase
+.malikah-theme .theme-showcase
 {
 	margin-top: 86px;
 }
 
-.theme-showcase > p > .btn {
+.malikah-theme .theme-showcase > p > .btn {
 	margin: 5px 0;
 }
 
-.theme-showcase .navbar .container {
+.malikah-theme .theme-showcase .navbar .container {
   width: auto;
 }
 
-.containernavtop
+.malikah-theme .containernavtop
 {
   background-image: url("../images/ironpatern.png");
   background-color: #ffffff;
@@ -39,12 +39,12 @@ body {
   height: 152px;
 }
 
-.topnavcontainer
+.malikah-theme .topnavcontainer
 {
 	margin-top: 25px;
 }
 
-.footer {
+.malikah-theme .footer {
     bottom: 0;
     width: 100%;
     height: 244px;
@@ -52,32 +52,32 @@ body {
 	margin-top:25px;
 }
 
-.thumbnailitems
+.malikah-theme .thumbnailitems
 {
   height: 340px !important;
 }
 
-.thumbnailitems img
+.malikah-theme .thumbnailitems img
 {
   max-height: 176px !important;
 }
 
-.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover
+.malikah-theme .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover
 {
 	color: #9d9d9d !important;
 }
 
-.navbar-inverse .navbar-toggle .icon-bar
+.malikah-theme .navbar-inverse .navbar-toggle .icon-bar
 {
 	background-color: #666666 !important;
 }
 
-.main-container
+.malikah-theme .main-container
 {
 	min-height: 1200px;
 }
 
-.footer-center
+.malikah-theme .footer-center
 {
 	text-align: center;
 	color:#D3D3D3;
@@ -85,12 +85,12 @@ body {
   background-color: #303132;
 }
 
-.nav .link
+.malikah-theme .nav .link
 {
 	font-size:15px;
 }
 
-.largebackground-image
+.malikah-theme .largebackground-image
 {
   background-image: url("../images/background.jpg");
     height: 575px;
@@ -104,41 +104,41 @@ body {
     bottom: 0;
 }
 
-.jumbotron-malikah
+.malikah-theme .jumbotron-malikah
 {
     opacity: 0.8;
     margin-top: 48px;
 }
 
-.fblink
+.malikah-theme .fblink
 {
   background-image: url("../images/fblogo.png");
   height: 23px;
   background-repeat: no-repeat;
 }
 
-.twitterlink
+.malikah-theme .twitterlink
 {
   background-image: url("../images/twitter.png");
   height: 23px;
   background-repeat: no-repeat;
 }
 
-.pinterestlink
+.malikah-theme .pinterestlink
 {
   background-image: url("../images/pinterest.png");
   height: 23px;
   background-repeat: no-repeat;
 }
 
-.instagramlink
+.malikah-theme .instagramlink
 {
   background-image: url("../images/instagram.png");
   height: 23px;
   background-repeat: no-repeat;
 }
 
-.emailinput-input
+.malikah-theme .emailinput-input
 {
     background-color: rgba(83,81,81,1);
     padding: 7px 8px;
@@ -148,15 +148,15 @@ body {
     border: 0;
     outline: 0;
     width: 100%;
-    border-radius: 0; 
+    border-radius: 0;
 }
 
-.emailinput
+.malikah-theme .emailinput
 {
-  border-radius: 0; 
+  border-radius: 0;
 }
 
-.btnsubscribe
+.malikah-theme .btnsubscribe
 {
     background-color: rgba(211,211,211,1) !important;
     border-color: rgba(211,211,211,1);
@@ -169,65 +169,63 @@ body {
     margin-bottom: 10px;
 }
 
-.nav>li>a
+.malikah-theme .nav>li>a
 {
   color: #000000;
   background-color:#ffffff;
 }
 
-.navbar-inverse .navbar-nav>li>a:hover
+.malikah-theme .navbar-inverse .navbar-nav>li>a:hover
 {
   color: #ffffff !important;
   background-color:#000000;
 }
 
-.navbar-nav .open .dropdown-menu>li>a,
+.malikah-theme .navbar-nav .open .dropdown-menu>li>a,
 {
   background-color:#ffffff !important;
   color:#9d9d9d !important;
 }
 
-.navbar-nav .open .dropdown-menu>li>a:hover
+.malikah-theme .navbar-nav .open .dropdown-menu>li>a:hover
 {
  background-color: #000000;
  color: #ffffff;
 }
 
-.navbar-inverse .navbar-nav>li>a:focus
+.malikah-theme .navbar-inverse .navbar-nav>li>a:focus
 {
   background-color: #000000 !important;
   color:#ffffff !important;
 }
 
-.dropdown.shop.open,
-.dropdown.customerservice.open,
-.dropdown.aboutus.open
+.malikah-theme .dropdown.shop.open,
+.malikah-theme .dropdown.customerservice.open,
+.malikah-theme .dropdown.aboutus.open
 {
   background-color: #ffffff !important;
 }
 
-.dropdown .dropdown-toggle.selectedDrop
+.malikah-theme .dropdown .dropdown-toggle.selectedDrop
 {
   background-color: #000000 !important;
   color: #ffffff !important;
 }
 
-.btn-primary 
+.malikah-theme .btn-primary
 {
     color: #fff;
     background-color: #337ab7;
     border-color: #337ab7 !important;
 }
 
-.navbar-nav>li>a
+.malikah-theme .navbar-nav>li>a
 {
 	font-size: 15px;
 }
 
-.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover
+.malikah-theme .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover
 {
 	color: #ffffff;
 	background-color: #000000;
 }
-
-

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="malikah-theme" lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -197,7 +197,7 @@
 		  </div>
 		  </a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse"> 
+        <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="link home"><a href="/">Home</a></li>
 			<li class="dropdown aboutus">
@@ -213,12 +213,12 @@
                 <li><a href="/collection">Collection</a></li>
                 <li role="separator" class="divider"></li>
                 <li class="dropdown-header">The Essentials</li>
-				<?php 
-						$arr = getCollectionsIndefinite();  
-						for($i = 0; $i < sizeof($arr); $i++) 
-						{ 
-							echo "<li><a href=\"#\">".$arr[$i]->rs["Name"]."</a></li>"; 
-						} 
+				<?php
+						$arr = getCollectionsIndefinite();
+						for($i = 0; $i < sizeof($arr); $i++)
+						{
+							echo "<li><a href=\"#\">".$arr[$i]->rs["Name"]."</a></li>";
+						}
 				?>
               </ul>
             </li>
@@ -245,7 +245,7 @@
         </div>
       </div>
     </nav>
-	
+
 	<div class="container theme-showcase main-container" role="main">
 		<?php echo (isset($body) && is_array($body)) ? implode("\n",$body) : ''?>
     </div> <!-- /container -->
@@ -284,7 +284,7 @@
 </div>
       </div>
     </footer>
-	
+
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
