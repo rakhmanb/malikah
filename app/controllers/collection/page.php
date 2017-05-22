@@ -17,6 +17,7 @@ function _page($id, $page)
 	$arr = $item->retrieve_many("CollectionId = ? LIMIT 8 OFFSET ?", $id, $offset);
 
   $data['collection'] = $coll;
+  
   $data['items'][] = $arr;
   $data['pagesize'] = $pageSize;
   $data['body'][]=View::do_fetch(VIEW_PATH.'collection/view.php',$data);
