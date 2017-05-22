@@ -1,0 +1,233 @@
+html
+{
+	min-height: 100%;
+	position: relative;
+}
+
+body {
+  padding-top: 70px;
+  padding-bottom: 0px;
+  font-family: caudex, serif;
+  font-size: 13px;
+  line-height: normal;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase
+{
+	margin-top: 86px;
+}
+
+.theme-showcase > p > .btn {
+	margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+.containernavtop
+{
+  background-image: url("../images/ironpatern.png");
+  background-color: #ffffff;
+  border: none;
+  height: 152px;
+}
+
+.topnavcontainer
+{
+	margin-top: 25px;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    height: 244px;
+    background-color: #303132;
+	margin-top:25px;
+}
+
+.thumbnailitems
+{
+  height: 340px !important;
+}
+
+.thumbnailitems img
+{
+  max-height: 176px !important;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover
+{
+	color: #9d9d9d !important;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar
+{
+	background-color: #666666 !important;
+}
+
+.main-container
+{
+	min-height: 1200px;
+}
+
+.footer-center
+{
+	text-align: center;
+	color:#D3D3D3;
+	letter-spacing:0.1em;
+  background-color: #303132;
+}
+
+.nav .link
+{
+	font-size:15px;
+}
+
+.largebackground-image
+{
+  background-image: url("../images/background.jpg");
+    height: 575px;
+    background-repeat: no-repeat;
+    background-position: 50% 80%;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.jumbotron-malikah
+{
+    opacity: 0.8;
+    margin-top: 48px;
+}
+
+.fblink
+{
+  background-image: url("../images/fblogo.png");
+  height: 23px;
+  background-repeat: no-repeat;
+}
+
+.twitterlink
+{
+  background-image: url("../images/twitter.png");
+  height: 23px;
+  background-repeat: no-repeat;
+}
+
+.pinterestlink
+{
+  background-image: url("../images/pinterest.png");
+  height: 23px;
+  background-repeat: no-repeat;
+}
+
+.instagramlink
+{
+  background-image: url("../images/instagram.png");
+  height: 23px;
+  background-repeat: no-repeat;
+}
+
+.emailinput-input
+{
+    background-color: rgba(83,81,81,1);
+    padding: 7px 8px;
+    text-decoration: none;
+    color: rgba(255,255,255,1);
+    line-height: 16px;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    border-radius: 0; 
+}
+
+.emailinput
+{
+  border-radius: 0; 
+}
+
+.btnsubscribe
+{
+    background-color: rgba(211,211,211,1) !important;
+    border-color: rgba(211,211,211,1);
+    border-width: 0.9836065573770492px;
+    color: rgba(48,49,50,1);
+    width: 100%;
+    border-radius: 0;
+    padding: 7px 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nav>li>a
+{
+  color: #000000;
+  background-color:#ffffff;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover
+{
+  color: #ffffff !important;
+  background-color:#000000;
+}
+
+.navbar-nav .open .dropdown-menu>li>a,
+{
+  background-color:#ffffff !important;
+  color:#9d9d9d !important;
+}
+
+.navbar-nav .open .dropdown-menu>li>a:hover
+{
+ background-color: #000000;
+ color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus
+{
+  background-color: #000000 !important;
+  color:#ffffff !important;
+}
+
+.dropdown.shop.open,
+.dropdown.customerservice.open,
+.dropdown.aboutus.open
+{
+  background-color: #ffffff !important;
+}
+
+.dropdown .dropdown-toggle.selectedDrop
+{
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+.btn-primary 
+{
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7 !important;
+}
+
+.navbar-nav>li>a
+{
+	font-size: 15px;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover
+{
+	color: #ffffff;
+	background-color: #000000;
+}
+
+

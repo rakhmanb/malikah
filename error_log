@@ -1,0 +1,531 @@
+[27-Jan-2017 15:35:17 America/Denver] PHP Strict Standards:  Declaration of Controller::request_not_found() should be compatible with KISS_Controller::request_not_found($msg = '') in /home2/ayuandbi/public_html/malikahatelier/kissmvc.php on line 19
+[27-Jan-2017 15:42:07 America/Denver] PHP Strict Standards:  Declaration of Controller::request_not_found() should be compatible with KISS_Controller::request_not_found($msg = '') in /home2/ayuandbi/public_html/malikahatelier/kissmvc.php on line 19
+[27-Jan-2017 15:44:18 America/Denver] PHP Strict Standards:  Declaration of Controller::request_not_found() should be compatible with KISS_Controller::request_not_found($msg = '') in /home2/ayuandbi/public_html/malikahatelier/kissmvc.php on line 19
+[29-Jan-2017 03:31:54 America/Denver] PHP Parse error:  syntax error, unexpected '=' in /home2/ayuandbi/public_html/malikahatelier/app/controllers/subscribed/post.php on line 8
+[29-Jan-2017 11:39:27 America/Denver] PHP Notice:  Undefined index: email in /home2/ayuandbi/public_html/malikahatelier/app/controllers/subscribed/post.php on line 5
+[29-Jan-2017 23:05:43 America/Denver] PHP Fatal error:  Call to undefined method Collection::return_many() in /home2/ayuandbi/public_html/malikahatelier/app/inc/functions.php on line 5
+[29-Jan-2017 23:05:49 America/Denver] PHP Fatal error:  Call to undefined method Collection::return_many() in /home2/ayuandbi/public_html/malikahatelier/app/inc/functions.php on line 5
+[29-Jan-2017 23:09:43 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[29-Jan-2017 23:09:43 America/Denver] PHP Notice:  Array to string conversion in /home2/ayuandbi/public_html/malikahatelier/app/views/layouts/mainlayout.php on line 209
+[29-Jan-2017 23:11:57 America/Denver] PHP Notice:  Array to string conversion in /home2/ayuandbi/public_html/malikahatelier/app/views/layouts/mainlayout.php on line 209
+[29-Jan-2017 23:17:33 America/Denver] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home2/ayuandbi/public_html/malikahatelier/app/views/layouts/mainlayout.php on line 209
+[29-Jan-2017 23:25:43 America/Denver] PHP Fatal error:  Cannot use object of type Collection as array in /home2/ayuandbi/public_html/malikahatelier/app/views/layouts/mainlayout.php on line 213
+[31-Jan-2017 18:44:23 America/Denver] PHP Parse error:  syntax error, unexpected '++' (T_INC), expecting variable (T_VARIABLE) or '$' in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/index.php on line 4
+[31-Jan-2017 18:45:23 America/Denver] PHP Fatal error:  Cannot use [] for reading in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/index.php on line 4
+[31-Jan-2017 18:45:46 America/Denver] PHP Parse error:  syntax error, unexpected '++' (T_INC), expecting variable (T_VARIABLE) or '$' in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/index.php on line 4
+[31-Jan-2017 18:46:00 America/Denver] PHP Notice:  Undefined variable: data in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/index.php on line 4
+[31-Jan-2017 18:47:47 America/Denver] PHP Notice:  Undefined variable: collections in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/index.php on line 4
+[31-Jan-2017 18:50:06 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/index.php on line 6
+[31-Jan-2017 18:52:21 America/Denver] PHP Notice:  Undefined index: Name in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/index.php on line 6
+[31-Jan-2017 18:52:23 America/Denver] PHP Notice:  Undefined index: Name in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/index.php on line 6
+[31-Jan-2017 18:53:16 America/Denver] PHP Notice:  Array to string conversion in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/index.php on line 6
+[31-Jan-2017 18:53:44 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/index.php on line 6
+[31-Jan-2017 18:54:38 America/Denver] PHP Notice:  Array to string conversion in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/index.php on line 6
+[31-Jan-2017 18:54:40 America/Denver] PHP Notice:  Array to string conversion in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/index.php on line 6
+[31-Jan-2017 18:56:29 America/Denver] PHP Catchable fatal error:  Object of class Collection could not be converted to string in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/index.php on line 6
+[31-Jan-2017 19:05:05 America/Denver] PHP Notice:  Undefined index: Season in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/index.php on line 6
+[31-Jan-2017 19:05:05 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/index.php on line 6
+[31-Jan-2017 19:07:01 America/Denver] PHP Notice:  Undefined index: Season in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/index.php on line 6
+[31-Jan-2017 19:07:01 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/index.php on line 6
+[31-Jan-2017 19:07:03 America/Denver] PHP Notice:  Undefined index: Season in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/index.php on line 6
+[31-Jan-2017 19:07:03 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/index.php on line 6
+[31-Jan-2017 19:07:58 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/index.php on line 6
+[01-Feb-2017 02:01:27 America/Denver] PHP Parse error:  syntax error, unexpected ';' in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/create.php on line 10
+[01-Feb-2017 02:03:23 America/Denver] PHP Parse error:  syntax error, unexpected ';' in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/create.php on line 10
+[01-Feb-2017 02:04:00 America/Denver] PHP Fatal error:  Call to undefined function password_hash() in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/create.php on line 10
+[01-Feb-2017 02:26:12 America/Denver] PHP Fatal error:  Call to undefined function password_hash() in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/create.php on line 10
+[01-Feb-2017 02:26:21 America/Denver] PHP Fatal error:  Call to undefined function password_hash() in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/create.php on line 10
+[01-Feb-2017 03:14:31 America/Denver] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ')' in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/create.php on line 18
+[01-Feb-2017 04:16:25 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 5
+[01-Feb-2017 04:16:25 America/Denver] PHP Notice:  Undefined index: returnurl in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 18
+[01-Feb-2017 04:19:18 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 5
+[01-Feb-2017 04:21:18 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 5
+[01-Feb-2017 04:22:30 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 5
+[01-Feb-2017 04:22:32 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 5
+[01-Feb-2017 04:24:02 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 5
+[01-Feb-2017 04:24:04 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 5
+[01-Feb-2017 04:25:23 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 5
+[01-Feb-2017 04:25:29 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 5
+[01-Feb-2017 04:25:30 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 5
+[01-Feb-2017 04:25:57 America/Denver] PHP Warning:  Missing argument 1 for _login() in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 3
+[01-Feb-2017 04:25:57 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 5
+[01-Feb-2017 04:25:57 America/Denver] PHP Notice:  Undefined variable: retUrl in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 18
+[01-Feb-2017 04:26:08 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 5
+[01-Feb-2017 04:26:11 America/Denver] PHP Warning:  Missing argument 1 for _login() in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 3
+[01-Feb-2017 04:26:11 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 5
+[01-Feb-2017 04:26:11 America/Denver] PHP Notice:  Undefined variable: retUrl in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 18
+[01-Feb-2017 04:27:44 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 5
+[01-Feb-2017 04:28:14 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 5
+[01-Feb-2017 04:29:13 America/Denver] PHP Warning:  Missing argument 1 for _login() in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 3
+[01-Feb-2017 04:29:13 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 5
+[01-Feb-2017 04:29:13 America/Denver] PHP Notice:  Undefined variable: retUrl in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 18
+[01-Feb-2017 04:30:02 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 5
+[01-Feb-2017 04:30:03 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 5
+[01-Feb-2017 04:30:04 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 5
+[01-Feb-2017 04:30:06 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 5
+[01-Feb-2017 04:30:27 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 6
+[01-Feb-2017 04:30:29 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 6
+[01-Feb-2017 04:30:32 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 6
+[01-Feb-2017 04:30:34 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 6
+[01-Feb-2017 04:31:03 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 6
+[01-Feb-2017 04:31:30 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 6
+[01-Feb-2017 04:32:28 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 6
+[01-Feb-2017 04:32:43 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 6
+[01-Feb-2017 04:33:54 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 6
+[01-Feb-2017 04:33:58 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 6
+[01-Feb-2017 04:37:20 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 6
+[01-Feb-2017 04:37:22 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 6
+[01-Feb-2017 04:40:25 America/Denver] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 37
+[01-Feb-2017 04:40:52 America/Denver] PHP Notice:  Undefined index: Email in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 42
+[01-Feb-2017 04:41:04 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 6
+[01-Feb-2017 04:41:19 America/Denver] PHP Notice:  Undefined index: Email in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 42
+[01-Feb-2017 04:42:42 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 6
+[01-Feb-2017 04:46:56 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 6
+[01-Feb-2017 04:46:56 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 6
+[01-Feb-2017 10:34:09 America/Denver] PHP Warning:  require_once(app/models/Blog.php): failed to open stream: No such file or directory in /home2/ayuandbi/public_html/malikahatelier/index.php on line 97
+[01-Feb-2017 10:34:09 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'app/models/Blog.php' (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home2/ayuandbi/public_html/malikahatelier/index.php on line 97
+[01-Feb-2017 10:36:55 America/Denver] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home2/ayuandbi/public_html/malikahatelier/app/views/blog/index.php on line 11
+[01-Feb-2017 10:37:21 America/Denver] PHP Warning:  require_once(app/models/Users.php): failed to open stream: No such file or directory in /home2/ayuandbi/public_html/malikahatelier/index.php on line 97
+[01-Feb-2017 10:37:21 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'app/models/Users.php' (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home2/ayuandbi/public_html/malikahatelier/index.php on line 97
+[01-Feb-2017 10:37:35 America/Denver] PHP Notice:  Undefined index: Firstname in /home2/ayuandbi/public_html/malikahatelier/app/views/blog/index.php on line 10
+[01-Feb-2017 10:38:03 America/Denver] PHP Notice:  Undefined index: Firstname in /home2/ayuandbi/public_html/malikahatelier/app/views/blog/index.php on line 10
+[01-Feb-2017 10:38:05 America/Denver] PHP Notice:  Undefined index: Firstname in /home2/ayuandbi/public_html/malikahatelier/app/views/blog/index.php on line 10
+[01-Feb-2017 10:38:06 America/Denver] PHP Notice:  Undefined index: Firstname in /home2/ayuandbi/public_html/malikahatelier/app/views/blog/index.php on line 10
+[01-Feb-2017 10:38:07 America/Denver] PHP Notice:  Undefined index: Firstname in /home2/ayuandbi/public_html/malikahatelier/app/views/blog/index.php on line 10
+[01-Feb-2017 10:56:38 America/Denver] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home2/ayuandbi/public_html/malikahatelier/app/views/blog/index.php on line 17
+[01-Feb-2017 15:34:35 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 6
+[01-Feb-2017 15:36:09 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 6
+[01-Feb-2017 15:36:10 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 6
+[01-Feb-2017 16:11:43 America/Denver] PHP Parse error:  syntax error, unexpected ';' in /home2/ayuandbi/public_html/malikahatelier/app/views/blog/admin.php on line 7
+[01-Feb-2017 16:58:55 America/Denver] PHP Parse error:  syntax error, unexpected '.' in /home2/ayuandbi/public_html/malikahatelier/app/views/blog/admin.php on line 1
+[01-Feb-2017 17:08:34 America/Denver] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home2/ayuandbi/public_html/malikahatelier/app/views/blog/index.php on line 21
+[01-Feb-2017 17:14:46 America/Denver] PHP Fatal error:  Can't use function return value in write context in /home2/ayuandbi/public_html/malikahatelier/app/controllers/blog/index.php on line 11
+[01-Feb-2017 17:37:50 America/Denver] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home2/ayuandbi/public_html/malikahatelier/app/views/blog/page.php on line 21
+[01-Feb-2017 17:43:15 America/Denver] PHP Parse error:  syntax error, unexpected '{' in /home2/ayuandbi/public_html/malikahatelier/app/views/blog/page.php on line 22
+[01-Feb-2017 17:43:30 America/Denver] PHP Parse error:  syntax error, unexpected '{' in /home2/ayuandbi/public_html/malikahatelier/app/views/blog/page.php on line 22
+[01-Feb-2017 17:43:32 America/Denver] PHP Parse error:  syntax error, unexpected '{' in /home2/ayuandbi/public_html/malikahatelier/app/views/blog/page.php on line 22
+[01-Feb-2017 17:43:57 America/Denver] PHP Parse error:  syntax error, unexpected '{' in /home2/ayuandbi/public_html/malikahatelier/app/views/blog/page.php on line 22
+[01-Feb-2017 20:38:49 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 6
+[01-Feb-2017 20:44:25 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 6
+[01-Feb-2017 20:44:51 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 6
+[01-Feb-2017 20:45:24 America/Denver] PHP Notice:  Undefined variable: p in /home2/ayuandbi/public_html/malikahatelier/app/controllers/blog/index.php on line 16
+[02-Feb-2017 00:03:53 America/Denver] PHP Notice:  Undefined variable: p in /home2/ayuandbi/public_html/malikahatelier/app/controllers/blog/index.php on line 16
+[02-Feb-2017 00:04:07 America/Denver] PHP Notice:  Undefined variable: p in /home2/ayuandbi/public_html/malikahatelier/app/controllers/blog/page.php on line 20
+[02-Feb-2017 00:04:10 America/Denver] PHP Notice:  Undefined variable: p in /home2/ayuandbi/public_html/malikahatelier/app/controllers/blog/page.php on line 20
+[02-Feb-2017 00:44:00 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 6
+[02-Feb-2017 00:44:54 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 6
+[02-Feb-2017 00:45:54 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 6
+[02-Feb-2017 00:54:16 America/Denver] PHP Notice:  Undefined variable: p in /home2/ayuandbi/public_html/malikahatelier/app/controllers/blog/index.php on line 16
+[02-Feb-2017 00:55:09 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 6
+[02-Feb-2017 00:56:22 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 6
+[02-Feb-2017 00:56:31 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 6
+[02-Feb-2017 00:56:43 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 6
+[02-Feb-2017 00:56:45 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 6
+[02-Feb-2017 00:56:47 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 6
+[02-Feb-2017 01:07:49 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 6
+[02-Feb-2017 01:10:32 America/Denver] PHP Notice:  Undefined index: type in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 6
+[02-Feb-2017 01:19:23 America/Denver] PHP Notice:  Undefined variable: retUrl in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 31
+[02-Feb-2017 01:19:26 America/Denver] PHP Notice:  Undefined variable: retUrl in /home2/ayuandbi/public_html/malikahatelier/app/controllers/user/login.php on line 31
+[02-Feb-2017 01:37:11 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home2/ayuandbi/public_html/malikahatelier/app/controllers/blog/admin.php on line 17
+[05-Feb-2017 02:29:05 America/Denver] PHP Notice:  Undefined variable: data in /home2/ayuandbi/public_html/malikahatelier/app/controllers/pagecategory/addpagecategory.php on line 7
+[05-Feb-2017 03:06:05 America/Denver] PHP Fatal error:  Call to undefined method Page::retreive_one() in /home2/ayuandbi/public_html/malikahatelier/app/controllers/page/index.php on line 6
+[05-Feb-2017 03:25:57 America/Denver] PHP Parse error:  syntax error, unexpected 'myUrl' (T_STRING), expecting ',' or ';' in /home2/ayuandbi/public_html/malikahatelier/app/views/layouts/mainlayout.php on line 236
+[05-Feb-2017 03:26:24 America/Denver] PHP Fatal error:  Call to undefined method Page::retreive_many() in /home2/ayuandbi/public_html/malikahatelier/app/views/layouts/mainlayout.php on line 232
+[05-Feb-2017 03:26:35 America/Denver] PHP Fatal error:  Call to undefined method Page::retreive_many() in /home2/ayuandbi/public_html/malikahatelier/app/views/layouts/mainlayout.php on line 232
+[05-Feb-2017 03:36:38 America/Denver] PHP Notice:  Undefined variable: pagecategoryid in /home2/ayuandbi/public_html/malikahatelier/app/views/page/updatepage.php on line 15
+[05-Feb-2017 03:40:32 America/Denver] PHP Notice:  Undefined variable: pagecategoryid in /home2/ayuandbi/public_html/malikahatelier/app/views/page/updatepage.php on line 16
+[05-Feb-2017 03:41:06 America/Denver] PHP Warning:  Header may not contain more than a single header, new line detected in /home2/ayuandbi/public_html/malikahatelier/app/controllers/page/add.php on line 13
+[05-Feb-2017 03:42:05 America/Denver] PHP Notice:  Undefined variable: pagecategoryid in /home2/ayuandbi/public_html/malikahatelier/app/views/page/updatepage.php on line 16
+[05-Feb-2017 03:42:12 America/Denver] PHP Notice:  Undefined variable: pagecategoryid in /home2/ayuandbi/public_html/malikahatelier/app/views/page/updatepage.php on line 16
+[05-Feb-2017 03:43:22 America/Denver] PHP Notice:  Undefined variable: pagecategoryid in /home2/ayuandbi/public_html/malikahatelier/app/views/page/updatepage.php on line 16
+[05-Feb-2017 03:43:58 America/Denver] PHP Notice:  Undefined index: Id in /home2/ayuandbi/public_html/malikahatelier/app/controllers/page/update.php on line 7
+[05-Feb-2017 03:43:58 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 03:47:16 America/Denver] PHP Notice:  Undefined index: Id in /home2/ayuandbi/public_html/malikahatelier/app/controllers/page/update.php on line 7
+[05-Feb-2017 03:47:17 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 19:46:31 America/Denver] PHP Notice:  Undefined index: DisplayName in /home2/ayuandbi/public_html/malikahatelier/app/views/shop/admin.php on line 15
+[05-Feb-2017 19:46:31 America/Denver] PHP Notice:  Undefined index: Id in /home2/ayuandbi/public_html/malikahatelier/app/views/shop/admin.php on line 15
+[05-Feb-2017 19:46:31 America/Denver] PHP Notice:  Undefined index: DisplayName in /home2/ayuandbi/public_html/malikahatelier/app/views/shop/admin.php on line 15
+[05-Feb-2017 19:46:31 America/Denver] PHP Notice:  Undefined index: Id in /home2/ayuandbi/public_html/malikahatelier/app/views/shop/admin.php on line 15
+[05-Feb-2017 19:46:31 America/Denver] PHP Notice:  Undefined index: DisplayName in /home2/ayuandbi/public_html/malikahatelier/app/views/shop/admin.php on line 15
+[05-Feb-2017 19:46:31 America/Denver] PHP Notice:  Undefined index: Id in /home2/ayuandbi/public_html/malikahatelier/app/views/shop/admin.php on line 15
+[05-Feb-2017 19:49:24 America/Denver] PHP Notice:  Undefined index: DisplayName in /home2/ayuandbi/public_html/malikahatelier/app/views/shop/admin.php on line 15
+[05-Feb-2017 19:49:24 America/Denver] PHP Notice:  Undefined index: Id in /home2/ayuandbi/public_html/malikahatelier/app/views/shop/admin.php on line 15
+[05-Feb-2017 19:49:24 America/Denver] PHP Notice:  Undefined index: DisplayName in /home2/ayuandbi/public_html/malikahatelier/app/views/shop/admin.php on line 15
+[05-Feb-2017 19:49:24 America/Denver] PHP Notice:  Undefined index: Id in /home2/ayuandbi/public_html/malikahatelier/app/views/shop/admin.php on line 15
+[05-Feb-2017 19:49:24 America/Denver] PHP Notice:  Undefined index: DisplayName in /home2/ayuandbi/public_html/malikahatelier/app/views/shop/admin.php on line 15
+[05-Feb-2017 19:49:24 America/Denver] PHP Notice:  Undefined index: Id in /home2/ayuandbi/public_html/malikahatelier/app/views/shop/admin.php on line 15
+[05-Feb-2017 19:49:26 America/Denver] PHP Notice:  Undefined index: DisplayName in /home2/ayuandbi/public_html/malikahatelier/app/views/shop/admin.php on line 15
+[05-Feb-2017 19:49:26 America/Denver] PHP Notice:  Undefined index: Id in /home2/ayuandbi/public_html/malikahatelier/app/views/shop/admin.php on line 15
+[05-Feb-2017 19:49:26 America/Denver] PHP Notice:  Undefined index: DisplayName in /home2/ayuandbi/public_html/malikahatelier/app/views/shop/admin.php on line 15
+[05-Feb-2017 19:49:26 America/Denver] PHP Notice:  Undefined index: Id in /home2/ayuandbi/public_html/malikahatelier/app/views/shop/admin.php on line 15
+[05-Feb-2017 19:49:26 America/Denver] PHP Notice:  Undefined index: DisplayName in /home2/ayuandbi/public_html/malikahatelier/app/views/shop/admin.php on line 15
+[05-Feb-2017 19:49:26 America/Denver] PHP Notice:  Undefined index: Id in /home2/ayuandbi/public_html/malikahatelier/app/views/shop/admin.php on line 15
+[05-Feb-2017 19:52:42 America/Denver] PHP Notice:  Undefined variable: categories in /home2/ayuandbi/public_html/malikahatelier/app/views/shop/admin.php on line 25
+[05-Feb-2017 19:53:12 America/Denver] PHP Notice:  Undefined index: DisplayName in /home2/ayuandbi/public_html/malikahatelier/app/views/shop/admin.php on line 32
+[05-Feb-2017 20:58:26 America/Denver] PHP Parse error:  syntax error, unexpected '<', expecting variable (T_VARIABLE) or '$' in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 23
+[05-Feb-2017 20:59:07 America/Denver] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 26
+[05-Feb-2017 20:59:19 America/Denver] PHP Notice:  Undefined variable: Id in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 44
+[05-Feb-2017 20:59:56 America/Denver] PHP Notice:  Undefined variable: Id in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 44
+[05-Feb-2017 21:00:33 America/Denver] PHP Notice:  Undefined variable: Id in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 40
+[05-Feb-2017 21:00:34 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 21:00:34 America/Denver] PHP Notice:  Undefined variable: Id in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 40
+[05-Feb-2017 21:00:35 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 21:00:35 America/Denver] PHP Notice:  Undefined variable: Id in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 40
+[05-Feb-2017 21:00:35 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 21:00:35 America/Denver] PHP Notice:  Undefined variable: Id in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 40
+[05-Feb-2017 21:00:55 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 21:00:55 America/Denver] PHP Notice:  Undefined variable: Id in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 40
+[05-Feb-2017 21:00:55 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 21:00:55 America/Denver] PHP Notice:  Undefined variable: Id in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 40
+[05-Feb-2017 21:00:55 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 21:00:55 America/Denver] PHP Notice:  Undefined variable: Id in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 40
+[05-Feb-2017 21:02:23 America/Denver] PHP Notice:  Undefined variable: Id in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 40
+[05-Feb-2017 21:02:23 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 21:02:23 America/Denver] PHP Notice:  Undefined variable: Id in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 40
+[05-Feb-2017 21:02:23 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 21:02:23 America/Denver] PHP Notice:  Undefined variable: Id in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 40
+[05-Feb-2017 21:02:24 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 21:02:24 America/Denver] PHP Notice:  Undefined variable: Id in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 40
+[05-Feb-2017 21:02:25 America/Denver] PHP Notice:  Undefined variable: Id in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 40
+[05-Feb-2017 21:02:26 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 21:02:26 America/Denver] PHP Notice:  Undefined variable: Id in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 40
+[05-Feb-2017 21:02:26 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 21:02:26 America/Denver] PHP Notice:  Undefined variable: Id in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 40
+[05-Feb-2017 21:02:26 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 21:02:26 America/Denver] PHP Notice:  Undefined variable: Id in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 40
+[05-Feb-2017 22:25:16 America/Denver] PHP Notice:  Undefined variable: Id in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 40
+[05-Feb-2017 22:25:17 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:25:17 America/Denver] PHP Notice:  Undefined variable: Id in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 40
+[05-Feb-2017 22:25:18 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:25:18 America/Denver] PHP Notice:  Undefined variable: Id in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 40
+[05-Feb-2017 22:25:18 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:25:18 America/Denver] PHP Notice:  Undefined variable: Id in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 40
+[05-Feb-2017 22:29:30 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:29:31 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:29:31 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:29:35 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:29:35 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:29:36 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:30:25 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:30:25 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:30:25 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:32:08 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:32:08 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:32:08 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:32:12 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:32:12 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:32:12 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:33:00 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:33:00 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:33:00 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:33:09 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:33:09 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:33:09 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:33:25 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:33:25 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:33:25 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:33:41 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:33:41 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:33:41 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:35:32 America/Denver] PHP Notice:  Undefined index: SeasonId in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 25
+[05-Feb-2017 22:35:32 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:35:32 America/Denver] PHP Notice:  Undefined index: SeasonId in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 25
+[05-Feb-2017 22:35:33 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:35:33 America/Denver] PHP Notice:  Undefined index: SeasonId in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 25
+[05-Feb-2017 22:35:33 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:35:33 America/Denver] PHP Notice:  Undefined index: SeasonId in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 25
+[05-Feb-2017 22:35:34 America/Denver] PHP Notice:  Undefined index: SeasonId in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 25
+[05-Feb-2017 22:35:34 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:35:34 America/Denver] PHP Notice:  Undefined index: SeasonId in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 25
+[05-Feb-2017 22:35:34 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:35:34 America/Denver] PHP Notice:  Undefined index: SeasonId in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 25
+[05-Feb-2017 22:35:34 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:35:34 America/Denver] PHP Notice:  Undefined index: SeasonId in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 25
+[05-Feb-2017 22:36:06 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:36:06 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:36:07 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:36:18 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:36:18 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:36:19 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:36:37 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:36:37 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:36:38 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:36:38 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:36:38 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:36:39 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:37:53 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:37:54 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:37:54 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:38:02 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:38:02 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:38:03 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:38:16 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:38:16 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:38:17 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:42:19 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:42:19 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:42:20 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:43:16 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:43:17 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:43:17 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:44:22 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:44:22 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:44:23 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:44:26 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:44:26 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:44:27 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:48:43 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:48:43 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 22:48:44 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 23:01:22 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 23:01:23 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 23:01:23 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 23:05:35 America/Denver] PHP Parse error:  syntax error, unexpected 'indefiniteChkBx' (T_STRING), expecting ',' or ';' in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 45
+[05-Feb-2017 23:06:18 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 23:06:19 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 23:06:19 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 23:06:41 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 23:06:41 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 23:06:42 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 23:07:35 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 23:07:35 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 23:07:35 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 23:08:53 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 23:08:54 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 23:08:54 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 23:09:16 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 23:09:16 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 23:09:17 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 23:10:00 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 23:10:00 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 23:10:00 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 23:10:02 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 23:10:02 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 23:10:02 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 23:10:36 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 23:10:36 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 23:10:37 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 23:10:56 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 23:10:56 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 23:10:57 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 23:12:07 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 23:12:07 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[05-Feb-2017 23:12:08 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[06-Feb-2017 20:53:40 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[06-Feb-2017 20:53:41 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[06-Feb-2017 20:53:41 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[06-Feb-2017 21:07:30 America/Denver] PHP Parse error:  syntax error, unexpected ':' in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 55
+[06-Feb-2017 21:08:14 America/Denver] PHP Parse error:  syntax error, unexpected ':' in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 55
+[06-Feb-2017 21:08:34 America/Denver] PHP Parse error:  syntax error, unexpected ':' in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 55
+[06-Feb-2017 21:08:36 America/Denver] PHP Parse error:  syntax error, unexpected ':' in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 55
+[06-Feb-2017 21:08:36 America/Denver] PHP Parse error:  syntax error, unexpected ':' in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 55
+[06-Feb-2017 21:32:20 America/Denver] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 70
+[09-Feb-2017 21:19:32 America/Denver] PHP Notice:  Undefined variable: Item in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/add.php on line 7
+[09-Feb-2017 21:19:32 America/Denver] PHP Fatal error:  Class name must be a valid object or a string in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/add.php on line 7
+[09-Feb-2017 21:20:40 America/Denver] PHP Notice:  Undefined variable: Item in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/add.php on line 7
+[09-Feb-2017 21:20:40 America/Denver] PHP Fatal error:  Class name must be a valid object or a string in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/add.php on line 7
+[09-Feb-2017 21:21:54 America/Denver] PHP Notice:  Undefined index: CategoryId in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/add.php on line 12
+[09-Feb-2017 21:21:54 America/Denver] PHP Notice:  Undefined offset: 0 in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/add.php on line 23
+[09-Feb-2017 21:21:54 America/Denver] PHP Notice:  Undefined index: fileToUpload in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/add.php on line 25
+[09-Feb-2017 21:21:54 America/Denver] PHP Warning:  require_once(app/models/Photo.php): failed to open stream: No such file or directory in /home2/ayuandbi/public_html/malikahatelier/index.php on line 97
+[09-Feb-2017 21:21:54 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'app/models/Photo.php' (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home2/ayuandbi/public_html/malikahatelier/index.php on line 97
+[09-Feb-2017 21:24:41 America/Denver] PHP Notice:  Undefined offset: 0 in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/add.php on line 22
+[09-Feb-2017 21:24:41 America/Denver] PHP Warning:  require_once(app/models/Photo.php): failed to open stream: No such file or directory in /home2/ayuandbi/public_html/malikahatelier/index.php on line 97
+[09-Feb-2017 21:24:41 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'app/models/Photo.php' (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home2/ayuandbi/public_html/malikahatelier/index.php on line 97
+[09-Feb-2017 21:28:56 America/Denver] PHP Warning:  move_uploaded_file(../../../resources/uploads/fileImage_1_3png): failed to open stream: No such file or directory in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/add.php on line 24
+[09-Feb-2017 21:28:56 America/Denver] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpuOSZrw' to '../../../resources/uploads/fileImage_1_3png' in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/add.php on line 24
+[09-Feb-2017 21:28:56 America/Denver] PHP Warning:  require_once(app/models/Photo.php): failed to open stream: No such file or directory in /home2/ayuandbi/public_html/malikahatelier/index.php on line 97
+[09-Feb-2017 21:28:56 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'app/models/Photo.php' (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home2/ayuandbi/public_html/malikahatelier/index.php on line 97
+[09-Feb-2017 21:32:35 America/Denver] PHP Notice:  Undefined index: DisplayName in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 94
+[09-Feb-2017 21:33:08 America/Denver] PHP Notice:  Undefined offset: 1 in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/add.php on line 22
+[09-Feb-2017 21:33:08 America/Denver] PHP Notice:  Undefined offset: 2 in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/add.php on line 22
+[09-Feb-2017 21:33:08 America/Denver] PHP Notice:  Undefined offset: 3 in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/add.php on line 22
+[09-Feb-2017 21:33:08 America/Denver] PHP Notice:  Undefined offset: 4 in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/add.php on line 22
+[09-Feb-2017 21:40:11 America/Denver] PHP Notice:  Undefined offset: 0 in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/add.php on line 20
+[09-Feb-2017 22:14:17 America/Denver] PHP Notice:  Undefined index: Description in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/add.php on line 9
+[09-Feb-2017 22:21:05 America/Denver] PHP Notice:  Undefined index: Description in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/add.php on line 9
+[10-Feb-2017 01:16:14 America/Denver] PHP Notice:  Undefined index: CategoryId in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 55
+[10-Feb-2017 01:23:30 America/Denver] PHP Notice:  Undefined index: ShopId in /home2/ayuandbi/public_html/malikahatelier/app/controllers/collection/update.php on line 9
+[10-Feb-2017 01:23:30 America/Denver] PHP Notice:  Undefined index: Indefinite in /home2/ayuandbi/public_html/malikahatelier/app/controllers/collection/update.php on line 12
+[10-Feb-2017 01:26:58 America/Denver] PHP Notice:  Undefined index: ShopId in /home2/ayuandbi/public_html/malikahatelier/app/controllers/collection/update.php on line 9
+[10-Feb-2017 01:26:58 America/Denver] PHP Notice:  Undefined index: Indefinite in /home2/ayuandbi/public_html/malikahatelier/app/controllers/collection/update.php on line 12
+[10-Feb-2017 01:28:59 America/Denver] PHP Notice:  Undefined index: ShopId in /home2/ayuandbi/public_html/malikahatelier/app/controllers/collection/update.php on line 9
+[10-Feb-2017 01:28:59 America/Denver] PHP Notice:  Undefined index: Indefinite in /home2/ayuandbi/public_html/malikahatelier/app/controllers/collection/update.php on line 12
+[10-Feb-2017 01:31:42 America/Denver] PHP Notice:  Undefined index: Indefinite in /home2/ayuandbi/public_html/malikahatelier/app/controllers/collection/update.php on line 12
+[10-Feb-2017 01:43:50 America/Denver] PHP Notice:  Use of undefined constant j - assumed 'j' in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:50 America/Denver] PHP Notice:  Undefined index: j in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:50 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:50 America/Denver] PHP Notice:  Undefined index: CategoryId in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:50 America/Denver] PHP Notice:  Use of undefined constant j - assumed 'j' in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:50 America/Denver] PHP Notice:  Undefined index: j in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:50 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:50 America/Denver] PHP Notice:  Undefined index: CategoryId in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:50 America/Denver] PHP Notice:  Use of undefined constant j - assumed 'j' in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:50 America/Denver] PHP Notice:  Undefined index: j in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:50 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:50 America/Denver] PHP Notice:  Undefined index: CategoryId in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:50 America/Denver] PHP Notice:  Use of undefined constant j - assumed 'j' in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:50 America/Denver] PHP Notice:  Undefined index: j in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:50 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:50 America/Denver] PHP Notice:  Undefined index: CategoryId in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:50 America/Denver] PHP Notice:  Use of undefined constant j - assumed 'j' in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:50 America/Denver] PHP Notice:  Undefined index: j in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:50 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:50 America/Denver] PHP Notice:  Undefined index: CategoryId in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:50 America/Denver] PHP Notice:  Use of undefined constant j - assumed 'j' in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:50 America/Denver] PHP Notice:  Undefined index: j in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:50 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:50 America/Denver] PHP Notice:  Undefined index: CategoryId in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:52 America/Denver] PHP Notice:  Use of undefined constant j - assumed 'j' in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:52 America/Denver] PHP Notice:  Undefined index: j in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:52 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:52 America/Denver] PHP Notice:  Undefined index: CategoryId in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:52 America/Denver] PHP Notice:  Use of undefined constant j - assumed 'j' in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:52 America/Denver] PHP Notice:  Undefined index: j in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:52 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:52 America/Denver] PHP Notice:  Undefined index: CategoryId in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:52 America/Denver] PHP Notice:  Use of undefined constant j - assumed 'j' in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:52 America/Denver] PHP Notice:  Undefined index: j in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:52 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:52 America/Denver] PHP Notice:  Undefined index: CategoryId in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:53 America/Denver] PHP Notice:  Use of undefined constant j - assumed 'j' in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:53 America/Denver] PHP Notice:  Undefined index: j in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:53 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:53 America/Denver] PHP Notice:  Undefined index: CategoryId in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:53 America/Denver] PHP Notice:  Use of undefined constant j - assumed 'j' in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:53 America/Denver] PHP Notice:  Undefined index: j in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:53 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:53 America/Denver] PHP Notice:  Undefined index: CategoryId in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:53 America/Denver] PHP Notice:  Use of undefined constant j - assumed 'j' in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:53 America/Denver] PHP Notice:  Undefined index: j in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:53 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:43:53 America/Denver] PHP Notice:  Undefined index: CategoryId in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:44:53 America/Denver] PHP Notice:  Undefined index: CategoryId in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 01:44:54 America/Denver] PHP Notice:  Undefined index: CategoryId in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 48
+[10-Feb-2017 02:10:55 America/Denver] PHP Notice:  Undefined index: CollectionId in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/delete.php on line 12
+[10-Feb-2017 02:10:56 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[10-Feb-2017 02:27:44 America/Denver] PHP Warning:  Missing argument 1 for _jsonrefresh() in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/jsonrefresh.php on line 3
+[10-Feb-2017 02:27:44 America/Denver] PHP Notice:  Undefined variable: collectionid in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/jsonrefresh.php on line 6
+[10-Feb-2017 02:27:44 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 343
+[10-Feb-2017 02:27:44 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[10-Feb-2017 02:38:16 America/Denver] PHP Parse error:  syntax error, unexpected '.' in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/updatecollection.php on line 313
+[10-Feb-2017 17:27:22 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[10-Feb-2017 17:27:23 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[10-Feb-2017 17:27:23 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[10-Feb-2017 17:27:23 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[10-Feb-2017 17:27:23 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[10-Feb-2017 17:27:24 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[10-Feb-2017 17:27:24 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[10-Feb-2017 18:03:58 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[10-Feb-2017 18:05:19 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[10-Feb-2017 18:06:28 America/Denver] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 345
+[11-Feb-2017 02:02:39 America/Denver] PHP Notice:  Undefined index: Indefinite in /home2/ayuandbi/public_html/malikahatelier/app/controllers/collection/add.php on line 12
+[11-Feb-2017 02:05:59 America/Denver] PHP Notice:  Undefined index: Indefinite in /home2/ayuandbi/public_html/malikahatelier/app/controllers/collection/add.php on line 12
+[11-Feb-2017 02:20:54 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/ayuandbi/public_html/malikahatelier/app/controllers/collection/add.php on line 26
+[11-Feb-2017 02:20:54 America/Denver] PHP Fatal error:  Call to undefined method stdClass::update() in /home2/ayuandbi/public_html/malikahatelier/app/controllers/collection/add.php on line 30
+[11-Feb-2017 02:23:13 America/Denver] PHP Notice:  Undefined variable: directory in /home2/ayuandbi/public_html/malikahatelier/app/controllers/collection/add.php on line 26
+[11-Feb-2017 02:29:05 America/Denver] PHP Notice:  Undefined index: category in /home2/ayuandbi/public_html/malikahatelier/app/controllers/collection/add.php on line 26
+[11-Feb-2017 02:29:05 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home2/ayuandbi/public_html/malikahatelier/app/controllers/collection/add.php on line 28
+[11-Feb-2017 02:31:49 America/Denver] PHP Catchable fatal error:  Object of class Collection could not be converted to string in /home2/ayuandbi/public_html/malikahatelier/app/controllers/collection/add.php on line 42
+[11-Feb-2017 02:32:37 America/Denver] PHP Notice:  Undefined variable: blog in /home2/ayuandbi/public_html/malikahatelier/app/controllers/collection/delete.php on line 11
+[11-Feb-2017 02:32:37 America/Denver] PHP Fatal error:  Call to a member function delete() on a non-object in /home2/ayuandbi/public_html/malikahatelier/app/controllers/collection/delete.php on line 11
+[11-Feb-2017 02:34:51 America/Denver] PHP Fatal error:  Cannot use object of type Collection as array in /home2/ayuandbi/public_html/malikahatelier/app/controllers/collection/add.php on line 42
+[11-Feb-2017 02:37:06 America/Denver] PHP Notice:  Undefined index: category in /home2/ayuandbi/public_html/malikahatelier/app/controllers/collection/update.php on line 29
+[11-Feb-2017 02:37:06 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home2/ayuandbi/public_html/malikahatelier/app/controllers/collection/update.php on line 39
+[11-Feb-2017 02:37:53 America/Denver] PHP Notice:  Undefined index: category in /home2/ayuandbi/public_html/malikahatelier/app/controllers/collection/update.php on line 29
+[11-Feb-2017 02:37:53 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home2/ayuandbi/public_html/malikahatelier/app/controllers/collection/update.php on line 39
+[11-Feb-2017 02:40:02 America/Denver] PHP Notice:  Undefined index: category in /home2/ayuandbi/public_html/malikahatelier/app/controllers/collection/update.php on line 32
+[11-Feb-2017 02:40:02 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home2/ayuandbi/public_html/malikahatelier/app/controllers/collection/update.php on line 42
+[11-Feb-2017 02:42:23 America/Denver] PHP Notice:  Undefined index: category in /home2/ayuandbi/public_html/malikahatelier/app/controllers/collection/update.php on line 32
+[11-Feb-2017 02:42:23 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home2/ayuandbi/public_html/malikahatelier/app/controllers/collection/update.php on line 42
+[11-Feb-2017 02:42:30 America/Denver] PHP Notice:  Undefined index: category in /home2/ayuandbi/public_html/malikahatelier/app/controllers/collection/update.php on line 32
+[11-Feb-2017 02:42:30 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home2/ayuandbi/public_html/malikahatelier/app/controllers/collection/update.php on line 42
+[11-Feb-2017 02:51:33 America/Denver] PHP Notice:  Undefined index: ShopId in /home2/ayuandbi/public_html/malikahatelier/app/controllers/category/add.php on line 9
+[11-Feb-2017 02:53:01 America/Denver] PHP Notice:  Undefined index: ShopId in /home2/ayuandbi/public_html/malikahatelier/app/controllers/category/add.php on line 9
+[11-Feb-2017 02:54:30 America/Denver] PHP Notice:  Undefined index: Id in /home2/ayuandbi/public_html/malikahatelier/app/controllers/category/update.php on line 7
+[11-Feb-2017 12:22:51 America/Denver] PHP Notice:  Undefined index: EditDescription in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/update.php on line 9
+[11-Feb-2017 12:22:51 America/Denver] PHP Notice:  Undefined index: EditAvailableInventory in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/update.php on line 12
+[11-Feb-2017 12:22:51 America/Denver] PHP Notice:  Uninitialized string offset: 0 in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/update.php on line 26
+[11-Feb-2017 12:22:51 America/Denver] PHP Notice:  Undefined index: CollectionId in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/update.php on line 89
+[11-Feb-2017 12:31:58 America/Denver] PHP Notice:  Undefined index: EditDescription in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/update.php on line 9
+[11-Feb-2017 12:31:58 America/Denver] PHP Notice:  Undefined index: EditAvailableInventory in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/update.php on line 12
+[11-Feb-2017 12:31:58 America/Denver] PHP Notice:  Undefined index: CollectionId in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/update.php on line 89
+[11-Feb-2017 12:33:04 America/Denver] PHP Notice:  Undefined index: EditDescription in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/update.php on line 9
+[11-Feb-2017 12:33:04 America/Denver] PHP Notice:  Undefined index: EditAvailableInventory in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/update.php on line 12
+[11-Feb-2017 12:33:04 America/Denver] PHP Notice:  Undefined index: CollectionId in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/update.php on line 89
+[11-Feb-2017 12:35:38 America/Denver] PHP Notice:  Undefined index: EditDescription in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/update.php on line 9
+[11-Feb-2017 12:35:38 America/Denver] PHP Notice:  Undefined index: EditAvailableInventory in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/update.php on line 12
+[11-Feb-2017 12:35:38 America/Denver] PHP Notice:  Undefined index: CollectionId in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/update.php on line 89
+[11-Feb-2017 12:39:00 America/Denver] PHP Notice:  Undefined index: EditDescription in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/update.php on line 9
+[11-Feb-2017 12:56:34 America/Denver] PHP Notice:  Undefined variable: i in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/update.php on line 69
+[11-Feb-2017 12:56:34 America/Denver] PHP Warning:  file_put_contents(/resources/uploads/fileImage_1_18_.png): failed to open stream: No such file or directory in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/update.php on line 71
+[11-Feb-2017 12:56:34 America/Denver] PHP Warning:  require_once(app/models/Photo.php): failed to open stream: No such file or directory in /home2/ayuandbi/public_html/malikahatelier/index.php on line 97
+[11-Feb-2017 12:56:34 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'app/models/Photo.php' (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home2/ayuandbi/public_html/malikahatelier/index.php on line 97
+[11-Feb-2017 12:57:45 America/Denver] PHP Notice:  Undefined variable: i in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/update.php on line 69
+[11-Feb-2017 12:57:45 America/Denver] PHP Warning:  file_put_contents(/resources/uploads/fileImage_1_18_.png): failed to open stream: No such file or directory in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/update.php on line 71
+[11-Feb-2017 12:57:45 America/Denver] PHP Warning:  require_once(app/models/Photo.php): failed to open stream: No such file or directory in /home2/ayuandbi/public_html/malikahatelier/index.php on line 97
+[11-Feb-2017 12:57:45 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'app/models/Photo.php' (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home2/ayuandbi/public_html/malikahatelier/index.php on line 97
+[11-Feb-2017 12:58:41 America/Denver] PHP Warning:  file_put_contents(/resources/uploads/fileImage_1_18_1.png): failed to open stream: No such file or directory in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/update.php on line 71
+[11-Feb-2017 12:58:41 America/Denver] PHP Warning:  require_once(app/models/Photo.php): failed to open stream: No such file or directory in /home2/ayuandbi/public_html/malikahatelier/index.php on line 97
+[11-Feb-2017 12:58:41 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'app/models/Photo.php' (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home2/ayuandbi/public_html/malikahatelier/index.php on line 97
+[11-Feb-2017 12:59:06 America/Denver] PHP Warning:  file_put_contents(/resources/uploads/fileImage_1_18_1.png): failed to open stream: No such file or directory in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/update.php on line 71
+[11-Feb-2017 12:59:06 America/Denver] PHP Warning:  require_once(app/models/Photo.php): failed to open stream: No such file or directory in /home2/ayuandbi/public_html/malikahatelier/index.php on line 97
+[11-Feb-2017 12:59:06 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'app/models/Photo.php' (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home2/ayuandbi/public_html/malikahatelier/index.php on line 97
+[11-Feb-2017 13:05:46 America/Denver] PHP Warning:  file_put_contents(/resources/uploads/fileImage_1_18_1.png): failed to open stream: No such file or directory in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/update.php on line 71
+[11-Feb-2017 13:05:46 America/Denver] PHP Warning:  require_once(app/models/Photo.php): failed to open stream: No such file or directory in /home2/ayuandbi/public_html/malikahatelier/index.php on line 97
+[11-Feb-2017 13:05:46 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'app/models/Photo.php' (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home2/ayuandbi/public_html/malikahatelier/index.php on line 97
+[11-Feb-2017 13:07:01 America/Denver] PHP Warning:  require_once(app/models/Photo.php): failed to open stream: No such file or directory in /home2/ayuandbi/public_html/malikahatelier/index.php on line 97
+[11-Feb-2017 13:07:01 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'app/models/Photo.php' (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home2/ayuandbi/public_html/malikahatelier/index.php on line 97
+[11-Feb-2017 13:07:29 America/Denver] PHP Warning:  require_once(app/models/Photo.php): failed to open stream: No such file or directory in /home2/ayuandbi/public_html/malikahatelier/index.php on line 97
+[11-Feb-2017 13:07:29 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'app/models/Photo.php' (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home2/ayuandbi/public_html/malikahatelier/index.php on line 97
+[11-Feb-2017 13:16:11 America/Denver] PHP Notice:  Uninitialized string offset: 0 in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/update.php on line 26
+[11-Feb-2017 13:20:21 America/Denver] PHP Notice:  Uninitialized string offset: 0 in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/update.php on line 26
+[11-Feb-2017 13:21:05 America/Denver] PHP Notice:  Uninitialized string offset: 0 in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/update.php on line 26
+[11-Feb-2017 14:18:57 America/Denver] PHP Notice:  Undefined index: DisplayName in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/view.php on line 15
+[11-Feb-2017 14:18:57 America/Denver] PHP Notice:  Undefined index: Image in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/view.php on line 18
+[11-Feb-2017 14:18:57 America/Denver] PHP Notice:  Undefined index: DisplayName in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/view.php on line 15
+[11-Feb-2017 14:18:57 America/Denver] PHP Notice:  Undefined index: Image in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/view.php on line 18
+[11-Feb-2017 14:19:35 America/Denver] PHP Notice:  Undefined index: Image in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/view.php on line 18
+[11-Feb-2017 14:39:04 America/Denver] PHP Notice:  Object of class Picture could not be converted to int in /home2/ayuandbi/public_html/malikahatelier/kissmvc_core.php on line 257
+[12-Feb-2017 01:51:27 America/Denver] PHP Notice:  Undefined offset: 0 in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/view.php on line 10
+[12-Feb-2017 01:51:27 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/view.php on line 10
+[12-Feb-2017 01:51:27 America/Denver] PHP Warning:  money_format() expects parameter 2 to be double, string given in /home2/ayuandbi/public_html/malikahatelier/app/views/item/view.php on line 44
+[12-Feb-2017 01:53:51 America/Denver] PHP Notice:  Undefined offset: 0 in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/view.php on line 10
+[12-Feb-2017 01:53:51 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/view.php on line 10
+[12-Feb-2017 01:53:51 America/Denver] PHP Warning:  money_format() expects parameter 2 to be double, string given in /home2/ayuandbi/public_html/malikahatelier/app/views/item/view.php on line 44
+[12-Feb-2017 01:53:53 America/Denver] PHP Notice:  Undefined offset: 0 in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/view.php on line 10
+[12-Feb-2017 01:53:53 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/view.php on line 10
+[12-Feb-2017 01:53:53 America/Denver] PHP Warning:  money_format() expects parameter 2 to be double, string given in /home2/ayuandbi/public_html/malikahatelier/app/views/item/view.php on line 44
+[12-Feb-2017 01:54:42 America/Denver] PHP Notice:  Undefined offset: 0 in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/view.php on line 10
+[12-Feb-2017 01:54:42 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/view.php on line 10
+[12-Feb-2017 01:54:42 America/Denver] PHP Warning:  money_format() expects parameter 2 to be double, string given in /home2/ayuandbi/public_html/malikahatelier/app/views/item/view.php on line 44
+[12-Feb-2017 01:55:52 America/Denver] PHP Notice:  Undefined offset: 0 in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/view.php on line 10
+[12-Feb-2017 01:55:52 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/view.php on line 10
+[12-Feb-2017 01:55:52 America/Denver] PHP Warning:  money_format() expects parameter 2 to be double, string given in /home2/ayuandbi/public_html/malikahatelier/app/views/item/view.php on line 44
+[12-Feb-2017 01:56:15 America/Denver] PHP Notice:  Undefined offset: 0 in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/view.php on line 10
+[12-Feb-2017 01:56:15 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/view.php on line 10
+[12-Feb-2017 01:56:15 America/Denver] PHP Warning:  money_format() expects parameter 2 to be double, string given in /home2/ayuandbi/public_html/malikahatelier/app/views/item/view.php on line 44
+[12-Feb-2017 01:59:24 America/Denver] PHP Notice:  Undefined variable: coverPhoto in /home2/ayuandbi/public_html/malikahatelier/app/views/item/view.php on line 15
+[12-Feb-2017 01:59:24 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/ayuandbi/public_html/malikahatelier/app/views/item/view.php on line 15
+[12-Feb-2017 01:59:25 America/Denver] PHP Notice:  Undefined offset: 0 in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/view.php on line 10
+[12-Feb-2017 01:59:25 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/view.php on line 10
+[12-Feb-2017 01:59:25 America/Denver] PHP Notice:  Undefined variable: coverPhoto in /home2/ayuandbi/public_html/malikahatelier/app/views/item/view.php on line 15
+[12-Feb-2017 01:59:25 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/ayuandbi/public_html/malikahatelier/app/views/item/view.php on line 15
+[12-Feb-2017 01:59:25 America/Denver] PHP Warning:  money_format() expects parameter 2 to be double, string given in /home2/ayuandbi/public_html/malikahatelier/app/views/item/view.php on line 44
+[12-Feb-2017 01:59:25 America/Denver] PHP Notice:  Undefined offset: 0 in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/view.php on line 10
+[12-Feb-2017 01:59:25 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/view.php on line 10
+[12-Feb-2017 01:59:25 America/Denver] PHP Notice:  Undefined variable: coverPhoto in /home2/ayuandbi/public_html/malikahatelier/app/views/item/view.php on line 15
+[12-Feb-2017 01:59:25 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/ayuandbi/public_html/malikahatelier/app/views/item/view.php on line 15
+[12-Feb-2017 01:59:25 America/Denver] PHP Warning:  money_format() expects parameter 2 to be double, string given in /home2/ayuandbi/public_html/malikahatelier/app/views/item/view.php on line 44
+[12-Feb-2017 02:00:26 America/Denver] PHP Notice:  Undefined offset: 0 in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/view.php on line 10
+[12-Feb-2017 02:00:26 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/ayuandbi/public_html/malikahatelier/app/controllers/item/view.php on line 10
+[12-Feb-2017 02:00:26 America/Denver] PHP Warning:  money_format() expects parameter 2 to be double, string given in /home2/ayuandbi/public_html/malikahatelier/app/views/item/view.php on line 44
+[12-Feb-2017 02:25:46 America/Denver] PHP Fatal error:  Cannot use object of type Picture as array in /home2/ayuandbi/public_html/malikahatelier/app/views/item/view.php on line 31
+[12-Feb-2017 02:26:12 America/Denver] PHP Fatal error:  Cannot use object of type Picture as array in /home2/ayuandbi/public_html/malikahatelier/app/views/item/view.php on line 31
+[12-Feb-2017 09:40:15 America/Denver] PHP Warning:  Division by zero in /home2/ayuandbi/public_html/malikahatelier/app/controllers/collection/view.php on line 10
+[12-Feb-2017 09:40:15 America/Denver] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/view.php on line 63
+[12-Feb-2017 09:40:48 America/Denver] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/view.php on line 63
+[12-Feb-2017 09:41:04 America/Denver] PHP Notice:  Undefined variable: pageSize in /home2/ayuandbi/public_html/malikahatelier/app/views/collection/view.php on line 60
+[26-Feb-2017 23:01:11 America/Denver] PHP Notice:  Undefined index: email in /home2/ayuandbi/public_html/malikahatelier/app/controllers/subscribed/post.php on line 5
+[26-Feb-2017 23:01:30 America/Denver] PHP Notice:  Undefined index: email in /home2/ayuandbi/public_html/malikahatelier/app/controllers/subscribed/post.php on line 5
+[21-Mar-2017 06:29:16 America/Denver] PHP Notice:  Undefined index: email in /home2/ayuandbi/public_html/malikahatelier/app/controllers/subscribed/post.php on line 5
