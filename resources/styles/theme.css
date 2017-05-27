@@ -229,3 +229,18 @@ body {
 	color: #ffffff;
 	background-color: #000000;
 }
+
+.malikah-theme .imageContainer
+{
+    height: 176px;
+    line-height: 176px;
+    margin: 1px;
+    border: 1px solid #cccccc;
+    padding: 4px;
+    overflow: hidden;
+}
+
+.malikah-theme .cart-items-count
+{
+    margin-left: 5px;
+}

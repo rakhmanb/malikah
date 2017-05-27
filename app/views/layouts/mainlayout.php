@@ -11,30 +11,20 @@
 
     <title>Malikah - Modest Fashion</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="<?php echo myUrl('resources/js') ?>/tinymce/tinymce.min.js"></script>
+    <script src="<?php echo myUrl('resources/js') ?>/tinymce/tinymce.min.js"></script>
     <!-- Bootstrap core CSS -->
     <link href="<?php echo myUrl('resources/styles') ?>/bootstrap.min.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Caudex" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caudex" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <!-- Bootstrap theme -->
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="<?php echo myUrl('resources/styles') ?>/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="<?php echo myUrl('resources/styles') ?>/theme.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
   </head>
 
   <body>
-
     <!-- Fixed navbar -->
     <nav class="navbar navbar-inverse navbar-fixed-top containernavtop">
       <div class="container topnavcontainer">
@@ -201,32 +191,32 @@
           <ul class="nav navbar-nav">
             <li class="link home"><a href="/">Home</a></li>
 			<li class="dropdown aboutus">
-              <a href="/aboutus" class="dropdown-toggle aboutus" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="/brandinbrief">Our Brand in Brief</a></li>
-                <li><a href="/ourstory">Our Story</a></li>
-              </ul>
-            </li>
+        <a href="/aboutus" class="dropdown-toggle aboutus" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="/brandinbrief">Our Brand in Brief</a></li>
+          <li><a href="/ourstory">Our Story</a></li>
+        </ul>
+      </li>
 			<li class="dropdown shop">
-              <a href="/shop" class="dropdown-toggle shop" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shop<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="/collection">Collection</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">The Essentials</li>
-				<?php
-						$arr = getCollectionsIndefinite();
-						for($i = 0; $i < sizeof($arr); $i++)
-						{
-							echo "<li><a href=\"#\">".$arr[$i]->rs["Name"]."</a></li>";
-						}
-				?>
-              </ul>
-            </li>
+        <a href="/shop" class="dropdown-toggle shop" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shop<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="/collection">Collection</a></li>
+          <li role="separator" class="divider"></li>
+          <li class="dropdown-header">The Essentials</li>
+  				<?php
+  						$arr = getCollectionsIndefinite();
+  						for($i = 0; $i < sizeof($arr); $i++)
+  						{
+  							echo "<li><a href=\"#\">".$arr[$i]->rs["Name"]."</a></li>";
+  						}
+  				?>
+        </ul>
+      </li>
 			<li class="dropdown customerservice">
-              <a href="/customerservice" class="dropdown-toggle customerservice" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Customer Care<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-              <?php
-                //hard coded page category for Customer Care
+        <a href="/customerservice" class="dropdown-toggle customerservice" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Customer Care<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+        <?php
+          //hard coded page category for Customer Care
   				$pagecatId = 1;
   				$page = new Page();
   				$arr = $page->retrieve_many('PageCategoryId = ?', $pagecatId);
@@ -236,11 +226,13 @@
   					echo "<li><a href=\"".myUrl('').'page/view/'.$arr[$i]->rs['Name']."\">".$arr[$i]->rs['DisplayName']."</a></li>";
   				}
 
-              ?>
-              </ul>
-            </li>
+        ?>
+        </ul>
+      </li>
 			<li class="link contactus"><a href="/contactus">Contact Us</a></li>
 			<li class="link blog"><a href="/blog">Blog</a></li>
+      <li class="link account"><a href="/account">Welcome, <?php if(isset($_SESSION['Username'])){ echo $_SESSION['FName']."!"; }else{ echo "Guest!"; }?> </a></li>
+      <li class="link cart"><a href="/cart"><span class="glyphicon glyphicon-shopping-cart"></span><span class="cart-items-count">0</span></a></li>
           </ul>
         </div>
       </div>
@@ -285,7 +277,6 @@
       </div>
     </footer>
 
-
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -295,31 +286,30 @@
     	{
     		var emailvar = $(".emailinput input").val();
     		var url = "<?php echo myUrl("",true)."subscribed/post"; ?>";
-			$.ajax(
-			{
-				url: url,
-				type:"POST",
-				data:
-				{
-					email:emailvar
-				},
-				success: function(data, text, textd)
-				{
-					if(data.indexOf("not valid") < 0)
-					{
-						location.href = "<?php echo myUrl("")."subscribed" ?>";
-					}
-				},
-				error: function(err, text, d)
-				{
-					alert(err + " " + text);
-				}
-			});
-
+    			$.ajax(
+    			{
+    				url: url,
+    				type:"POST",
+    				data:
+    				{
+    					email:emailvar
+    				},
+    				success: function(data, text, textd)
+    				{
+    					if(data.indexOf("not valid") < 0)
+    					{
+    						location.href = "<?php echo myUrl("")."subscribed" ?>";
+    					}
+    				},
+    				error: function(err, text, d)
+    				{
+    					alert(err + " " + text);
+    				}
+  			 });
     	});
     </script>
     <script src="<?php echo myUrl('resources/js') ?>/bootstrap.min.js"></script>
-	<script src="<?php echo myUrl('resources/js') ?>/navbarset.js"></script>
+	  <script src="<?php echo myUrl('resources/js') ?>/navbarset.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="<?php echo myUrl('resources/js') ?>/ie10-viewport-bug-workaround.js"></script>
   </body>

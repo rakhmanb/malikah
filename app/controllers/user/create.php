@@ -6,6 +6,8 @@ function _create()
 	$user->rs['Username'] = $_POST['Username'];
 
 	$user->rs['Email'] = $_POST['Email'];
+	$user->rs['FirstName'] = $_POST['FirstName'];
+	$user->rs['LastName'] = $_POST['LastName'];
 
 	$passhash = password_hash($_POST['Password'], PASSWORD_DEFAULT);
 

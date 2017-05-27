@@ -53,8 +53,9 @@ function login()
 			$_SESSION['Username'] = $_POST['Username'];
 			$_SESSION['UserId'] = $newUser->rs['Id'];
 			$_SESSION['Email'] = $newUser->rs['Email'];
+			$_SESSION['FName'] = $newUser->rs['Firstname'];
 			$_SESSION['Administrator'] = $newUser->rs['Administrator'];
-				
+
 			if($_POST['returnurl'] && !empty($_POST['returnurl']))
 			{
 				header("Location:".urldecode($_POST['returnurl']));

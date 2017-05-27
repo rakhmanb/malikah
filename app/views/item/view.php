@@ -56,10 +56,10 @@
 	<div class="col-md-6" style="text-align:center;">
 		<div class="row">
 		<h1><small>
-			<?php 
+			<?php
 				setlocale(LC_MONETARY, 'en_US.UTF-8');
-				$price = money_format('%.2n', $item->rs['Price']);
-				echo $price;  
+				$price = sprintf('$%01.2f', $item->rs['Price']);
+				echo $price;
 			?>
 			</small></h1>
 		</div>

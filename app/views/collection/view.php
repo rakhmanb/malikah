@@ -3,7 +3,7 @@
 <?php
 
 	$rows = sizeof($items[0])/4;
-	
+
 	$rows = ceil($rows);
 
 	for($i = 0; $i < $rows; $i++)
@@ -27,11 +27,11 @@
 			}
 
 			setlocale(LC_MONETARY, 'en_US.UTF-8');
-			$price = money_format('%.2n', $items[0][$j]->rs['Price']);
+			$price =  sprintf('$%01.2f', $items[0][$j]->rs['Price']);
 
 			echo '  <div class="col-sm-6 col-md-3">
     <div class="thumbnail thumbnailitems"><h1><small>'.$items[0][$j]->rs['Name'].'</small></h1>
-      <a href="'.myUrl('').'item/view/'.$items[0][$j]->rs['Id'].'"><img src="'.myUrl('',true).$coverPhoto->rs['Data'].'" alt="..."></a>
+      <a href="'.myUrl('').'item/view/'.$items[0][$j]->rs['Id'].'"><div class="imageContainer"><img src="'.myUrl('',true).$coverPhoto->rs['Data'].'" alt="..."></div></a>
       <div class="caption">
         <p>'.$items[0][$j]->rs["Description"].'</p>
         <p>'.$price.'</p>
@@ -61,7 +61,7 @@
 		{
 			echo "<li><a href='".myUrl('',true)."collection/page/".$collection->rs['Id']."/".($s+1)."'>".($s+1)."</a></li>";
 		}
-		
+
 ?>
     <li>
       <a href="#" aria-label="Next">
