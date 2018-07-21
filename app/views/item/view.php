@@ -63,12 +63,27 @@
 			?>
 			</small></h1>
 		</div>
+		<div class="row">
+			<a class="item-addtocartbtn">
+				Add To Cart
+			</a>
+		</div>
 	</div>
 </div>
 <div class="row" style="border-top:1px solid black; padding-top:10px; margin-top:20px;">
 	<div class="col-md-12">
 	<?php
 		echo $item->rs['Description'];
+		/*
+		foreach($itemtypes as $item => $val)
+		{
+				echo 'Group: '.$item;
+				foreach($val as $itemval)
+				{
+					echo ' '.$itemval['type'];
+				}
+		}
+		*/
 	?>
 	</div>
 </div>

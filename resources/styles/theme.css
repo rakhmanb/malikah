@@ -60,6 +60,7 @@ body {
 .malikah-theme .thumbnailitems img
 {
   max-height: 176px !important;
+	width: 100%;
 }
 
 .malikah-theme .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover

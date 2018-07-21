@@ -1,5 +1,5 @@
 <?php
-	function _view($id) 
+	function _view($id)
 	{
 	  $item = new Item($id);
 	  $photo = new Picture();
@@ -14,6 +14,10 @@
 	  	$coverphoto = new Picture($item->rs['CoverPhotoId']);
 	  }
 
+		$itemtype = new ItemType();
+
+
+		$data['itemtypes'] = $itemtype->GetItemTypeQuantityItems($id);
 	  $data['item'] = $item;
 	  $data['pictures'] = $photoarr;
 	  $data['coverphoto'] = $coverphoto;

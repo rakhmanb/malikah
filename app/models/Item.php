@@ -1,7 +1,8 @@
 <?php
 class Item extends Model {
 
-  function __construct($id='') {
+  function __construct($id='')
+  {
     parent::__construct('Id','Item'); //primary key = uid; tablename = users
     $this->rs['Id'] = '';
     $this->rs['Name'] = '';
@@ -17,22 +18,23 @@ class Item extends Model {
       $this->retrieve($id);
   }
 
-  function create() {
+  function create()
+  {
     $this->rs['Date']=date('Y-m-d H:i:s');
     return parent::create();
   }
-  
+
   function delete()
   {
-	$photo = new Picture();
-	$photoarr = $photo->retrieve_many('ItemId = ?', $this->rs['Id']);
-	
-	for($i = 0; $i < sizeof($photoarr); $i++)
-	{
-		//delete image file
-		unlink($photoarr[$i]->rs['Data']);
-	}
-	
-	return parent::delete();
+  	$photo = new Picture();
+  	$photoarr = $photo->retrieve_many('ItemId = ?', $this->rs['Id']);
+
+  	for($i = 0; $i < sizeof($photoarr); $i++)
+  	{
+  		//delete image file
+  		unlink($photoarr[$i]->rs['Data']);
+  	}
+
+  	return parent::delete();
   }
 }

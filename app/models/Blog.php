@@ -6,7 +6,7 @@ class Blog extends Model {
     $this->rs['Id'] = '';
     $this->rs['Title'] = '';
     $this->rs['Post'] = '';
-	$this->rs['UserId'] = '';
+    $this->rs['UserId'] = '';
     $this->rs['Date'] = '';
     if ($id)
       $this->retrieve($id);

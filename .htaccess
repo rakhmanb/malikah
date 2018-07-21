@@ -1,5 +1,3 @@
-# Use PHP54CGI as default
-AddHandler fcgid54-script .php
 
 
 RewriteEngine On

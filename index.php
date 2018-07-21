@@ -22,8 +22,15 @@ define('WEB_FOLDER','/'); //with trailing slash pls
 //===============================================
 // Other Settings
 //===============================================
-define('WEB_DOMAIN','http://malikahatelier.com'); //with http:// and NO trailing slash pls
+//define('WEB_DOMAIN', (getenv('DOMAIN') !== null ? getenv('DOMAIN') : 'http://malikahatelier-test.com')); //with http:// and NO trailing slash pls
 define('VIEW_PATH','app/views/'); //with trailing slash pls
+//define('AUTH_URL', (getenv('AUTH_URL') !== null ? getenv('AUTH_URL') : 'http://localhost:5000'));
+
+$domain = (getenv('DOMAIN') ? getenv('DOMAIN') : 'http://malikahatelier-test.com');
+$auth_url = (getenv('AUTH_URL') ? getenv('AUTH_URL') : 'http://localhost:5000');
+
+define('WEB_DOMAIN', $domain); //with http:// and NO trailing slash pls
+define('AUTH_URL', $auth_url);
 
 //===============================================
 // Includes
@@ -58,7 +65,7 @@ $GLOBALS['pagination']['per_page'] = 5;
 //===============================================
 // Uncaught Exception Handling
 //===============================================s
-set_exception_handler('uncaught_exception_handler');
+//set_exception_handler('uncaught_exception_handler');
 
 function uncaught_exception_handler($e) {
   ob_end_clean(); //dump out remaining buffered text
@@ -76,30 +83,36 @@ function custom_error($msg='') {
 //===============================================
 function getdbh() {
   if (!isset($GLOBALS['dbh']))
-    try 
+    try
 	{
-		$GLOBALS['dbh'] = new PDO('mysql:host=localhost;dbname=ayuandbi_malikah', 'ayuandbi_malikah', 'rockman123');
-	} 
-	catch (PDOException $e) 
+		$GLOBALS['dbh'] = new PDO('mysql:host=localhost;dbname=malikah', 'root', 'BimAyu1221!');
+	}
+	catch (PDOException $e)
 	{
       die('Connection failed: '.$e->getMessage());
     }
   return $GLOBALS['dbh'];
 }
-
 //===============================================
 // Autoloading for Business Classes
 //===============================================
 // Assumes Model Classes start with capital letters and Helpers start with lower case letters
 function __autoload($classname) {
   $a=$classname[0];
-  if ($a >= 'A' && $a <='Z')
-    require_once(APP_PATH.'models/'.$classname.'.php');
+  if($classname != 'OpenIDConnectClient' && $classname != 'Jumbojett\OpenIDConnectClient') {
+
+    if ($a >= 'A' && $a <='Z')
+      require_once(APP_PATH.'models/'.$classname.'.php');
+    else
+      require_once(APP_PATH.'helpers/'.$classname.'.php');
+  }
   else
-    require_once(APP_PATH.'helpers/'.$classname.'.php');  
+  {
+  }
 }
 
 //===============================================
 // Start the controller
 //===============================================
 $controller = new Controller(APP_PATH.'controllers/',WEB_FOLDER,'main','index');
+

@@ -4,7 +4,7 @@ function postRedirectWithReturnURL($url, $returnurl)
 {
     ?>
         <form name="myForm" id="myForm"  action="<?php echo $url; ?>" method="POST">
-                <input name="returnurl" value="<?php echo urlencode($returnurl); ?>" />
+                <input type="hidden" name="returnurl" value="<?php echo urlencode($returnurl); ?>" />
         </form>
 
         <script>

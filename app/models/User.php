@@ -10,8 +10,9 @@ class User extends Model {
     $this->rs['Password'] = '';
     $this->rs['Address'] = '';
     $this->rs['Administrator'] = '';
-	$this->rs['Firstname'] = '';
-	$this->rs['Lastname'] = '';
+	  $this->rs['Firstname'] = '';
+    $this->rs['Lastname'] = '';
+    $this->rs['ExtraInfo'] = '';
     $this->rs['Date'] = '';
     if ($id)
     {

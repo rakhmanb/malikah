@@ -231,8 +231,23 @@
       </li>
 			<li class="link contactus"><a href="/contactus">Contact Us</a></li>
 			<li class="link blog"><a href="/blog">Blog</a></li>
-      <li class="link account"><a href="/account">Welcome, <?php if(isset($_SESSION['Username'])){ echo $_SESSION['FName']."!"; }else{ echo "Guest!"; }?> </a></li>
-      <li class="link cart"><a href="/cart"><span class="glyphicon glyphicon-shopping-cart"></span><span class="cart-items-count">0</span></a></li>
+      <li class="link account <?php if(isset($_SESSION['Username'])){ echo "loggedin"; }else{ echo "loggedout"; }?>"><a href="/account">Welcome, <?php if(isset($_SESSION['Username'])){ echo $_SESSION['FName']."!"; }else{ echo "Guest!"; }?> </a></li>
+      <?php
+        if(!isset($_SESSION['Username']))
+          {
+       ?>
+      <li class="link login"><a href="<?php echo myUrl(''); ?>user/login">Login</a></li>
+      <li class="link signup"><a href="<?php echo myUrl(''); ?>user/signup">Sign Up</a></li>
+      <?php
+          }
+          else {
+
+       ?>
+       <li class="link logout"><a href="<?php echo myUrl(''); ?>user/logout">Logout</a></li>
+       <?php
+            }
+        ?>
+      <li class="link cart"><a href="/cart"><span class="glyphicon glyphicon-shopping-cart"></span><span class="cart-items-count"><?php $cart = new Cart(); echo $cart->getQuantity(); ?></span></a></li>
           </ul>
         </div>
       </div>
@@ -277,6 +292,21 @@
       </div>
     </footer>
 
+		<form name="loginForm" id="loginForm"  action="/user/login" method="POST">
+                <input type="hidden" name="returnurl" id="hdnRetUrl" />
+        </form>
+
+				<?php 
+					if(!isset($_SESSION['Username'])){
+				?>
+
+				<iframe id='actionframe' style="display:none;" src="http://malikahatelier-test.com/login-oidc.php?prompt=false">
+				</iframe>
+
+				<?php
+				}
+				?>
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -306,10 +336,46 @@
     					alert(err + " " + text);
     				}
   			 });
-    	});
+			});
+			
+			$(".link.login a").click(function(e){
+				e.preventDefault();
+
+				$("#hdnRetUrl").val(window.location.pathname);
+
+				$("#loginForm")[0].submit();
+
+			});
+
     </script>
     <script src="<?php echo myUrl('resources/js') ?>/bootstrap.min.js"></script>
 	  <script src="<?php echo myUrl('resources/js') ?>/navbarset.js"></script>
+		<script src="<?php echo myUrl('resources/js') ?>/oidc-client.js"></script>
+		<?php 
+		if(!isset($_SESSION['Username'])){
+			?>
+		<script type="text/javascript">
+	
+			var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+			var eventer = window[eventMethod];
+			var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+			var nameLabel = jQuery(".link.account");
+			// Listen to message from child window
+			if(nameLabel.hasClass("loggedout")){
+
+				eventer(messageEvent,function(e) {
+					if(e.data !== 'Exception') {
+								nameLabel.find("a").text("Loading...");
+								location.reload();
+					}
+				},false);
+			}
+
+			<?php
+			}
+			?>
+
+	</script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="<?php echo myUrl('resources/js') ?>/ie10-viewport-bug-workaround.js"></script>
   </body>

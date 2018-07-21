@@ -18,10 +18,7 @@ class Model extends KISS_Model  {
 //===============================================================
 class Controller extends KISS_Controller {
 
-  //Example of overriding a core class method with your own
-  function request_not_found($msg='') {
-    die(View::do_fetch(VIEW_PATH.'errors/404.php'));
-  }
+
 
 }
 
