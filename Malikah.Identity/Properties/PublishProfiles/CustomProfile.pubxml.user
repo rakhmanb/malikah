@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA+lO1PASzj0efX7BvnLHxYwAAAAACAAAAAAAQZgAAAAEAACAAAAABzb++HfHWr8AnMzIQkGAyFnnY2k28ctoantzA98lekQAAAAAOgAAAAAIAACAAAAAC5CDJ/HOYWV0d0eBbRLjIp8zA9kCfCdfspTK+TU7eDSAAAAD56Idl3TxS9/CTNvsjG4MegV5ncldXh/tLRHRNTVTaa0AAAABA7AKcCsNz33XYJU+dFmX9mHXwDtF9dBjNedVEtg91o8v+P7ddiPpy+SkBP5O64beOMHvC7er0yZu1WBJj2Uyz</EncryptedPassword>
+    <_PublishTargetUrl>ftp://waws-prod-dm1-035.ftp.azurewebsites.windows.net/site/wwwroot</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>04/15/2018 10:15:10</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>05/09/2018 07:05:02</publishTime>
+    </File>
+    <File Include="appsettings.production.json">
+      <publishTime>05/10/2018 20:58:16</publishTime>
+    </File>
+    <File Include="bundleconfig.json">
+      <publishTime>04/15/2018 10:15:10</publishTime>
+    </File>
+    <File Include="IdentityModel.dll">
+      <publishTime>01/05/2018 16:23:50</publishTime>
+    </File>
+    <File Include="IdentityServer4.AspNetIdentity.dll">
+      <publishTime>01/10/2018 15:47:40</publishTime>
+    </File>
+    <File Include="IdentityServer4.dll">
+      <publishTime>01/10/2018 15:09:24</publishTime>
+    </File>
+    <File Include="Malikah.Identity.deps.json">
+      <publishTime>05/10/2018 20:58:16</publishTime>
+    </File>
+    <File Include="Malikah.Identity.dll">
+      <publishTime>05/10/2018 20:58:08</publishTime>
+    </File>
+    <File Include="Malikah.Identity.pdb">
+      <publishTime>05/10/2018 20:58:08</publishTime>
+    </File>
+    <File Include="Malikah.Identity.PrecompiledViews.dll">
+      <publishTime>05/10/2018 20:58:15</publishTime>
+    </File>
+    <File Include="Malikah.Identity.PrecompiledViews.pdb">
+      <publishTime>05/10/2018 20:58:15</publishTime>
+    </File>
+    <File Include="Malikah.Identity.runtimeconfig.json">
+      <publishTime>05/10/2018 20:58:16</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Logging.dll">
+      <publishTime>11/17/2017 01:33:38</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Tokens.dll">
+      <publishTime>11/17/2017 01:33:38</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>06/18/2017 13:57:10</publishTime>
+    </File>
+    <File Include="System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>11/17/2017 01:33:40</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>05/10/2018 20:58:16</publishTime>
+    </File>
+    <File Include="wwwroot/css/site.css">
+      <publishTime>04/15/2018 10:15:13</publishTime>
+    </File>
+    <File Include="wwwroot/css/site.min.css">
+      <publishTime>04/15/2018 10:15:13</publishTime>
+    </File>
+    <File Include="wwwroot/favicon.ico">
+      <publishTime>04/15/2018 10:15:13</publishTime>
+    </File>
+    <File Include="wwwroot/images/banner1.svg">
+      <publishTime>04/15/2018 10:15:13</publishTime>
+    </File>
+    <File Include="wwwroot/images/banner2.svg">
+      <publishTime>04/15/2018 10:15:13</publishTime>
+    </File>
+    <File Include="wwwroot/images/banner3.svg">
+      <publishTime>04/15/2018 10:15:13</publishTime>
+    </File>
+    <File Include="wwwroot/images/banner4.svg">
+      <publishTime>04/15/2018 10:15:13</publishTime>
+    </File>
+    <File Include="wwwroot/js/signout-redirect.js">
+      <publishTime>04/11/2018 19:17:32</publishTime>
+    </File>
+    <File Include="wwwroot/js/site.js">
+      <publishTime>04/15/2018 10:15:13</publishTime>
+    </File>
+    <File Include="wwwroot/js/site.min.js">
+      <publishTime>04/15/2018 10:15:13</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/.bower.json">
+      <publishTime>04/15/2018 10:15:13</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css">
+      <publishTime>04/15/2018 10:15:13</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map">
+      <publishTime>04/15/2018 10:15:13</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css">
+      <publishTime>04/15/2018 10:15:13</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map">
+      <publishTime>04/15/2018 10:15:13</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css">
+      <publishTime>04/15/2018 10:15:13</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css.map">
+      <publishTime>04/15/2018 10:15:13</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css">
+      <publishTime>04/15/2018 10:15:13</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map">
+      <publishTime>04/15/2018 10:15:13</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>04/15/2018 10:15:13</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>04/15/2018 10:15:13</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>04/15/2018 10:15:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>04/15/2018 10:15:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>04/15/2018 10:15:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.js">
+      <publishTime>04/15/2018 10:15:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.min.js">
+      <publishTime>04/15/2018 10:15:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/npm.js">
+      <publishTime>04/15/2018 10:15:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/LICENSE">
+      <publishTime>04/15/2018 10:15:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/.bower.json">
+      <publishTime>04/15/2018 10:15:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js">
+      <publishTime>04/15/2018 10:15:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js">
+      <publishTime>04/15/2018 10:15:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/.bower.json">
+      <publishTime>04/15/2018 10:15:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.js">
+      <publishTime>04/15/2018 10:15:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.min.js">
+      <publishTime>04/15/2018 10:15:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.js">
+      <publishTime>04/15/2018 10:15:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.min.js">
+      <publishTime>04/15/2018 10:15:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/LICENSE.md">
+      <publishTime>04/15/2018 10:15:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/.bower.json">
+      <publishTime>04/15/2018 10:15:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.js">
+      <publishTime>04/15/2018 10:15:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.js">
+      <publishTime>04/15/2018 10:15:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.map">
+      <publishTime>04/15/2018 10:15:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/LICENSE.txt">
+      <publishTime>04/15/2018 10:15:15</publishTime>
+    </File>
+  </ItemGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:malikahdb.database.windows.net,1433;Initial Catalog=malikah-identity;Persist Security Info=False;User ID=malikahadmin;Password=m4lik4h!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Malikah.Identity.Data.ApplicationDbContext">
+      <Value>Server=tcp:malikahdb.database.windows.net,1433;Initial Catalog=malikah-identity;Persist Security Info=False;User ID=malikahadmin;Password=m4lik4h!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

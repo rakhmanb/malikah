@@ -1,0 +1,10 @@
+C:\Users\My DELL\Documents\Dev\Malikah\Malikah.Api\bin\Debug\netcoreapp2.0\Malikah.Api.deps.json
+C:\Users\My DELL\Documents\Dev\Malikah\Malikah.Api\bin\Debug\netcoreapp2.0\Malikah.Api.runtimeconfig.json
+C:\Users\My DELL\Documents\Dev\Malikah\Malikah.Api\bin\Debug\netcoreapp2.0\Malikah.Api.runtimeconfig.dev.json
+C:\Users\My DELL\Documents\Dev\Malikah\Malikah.Api\bin\Debug\netcoreapp2.0\Malikah.Api.dll
+C:\Users\My DELL\Documents\Dev\Malikah\Malikah.Api\obj\Debug\netcoreapp2.0\Malikah.Api.csproj.CoreCompileInputs.cache
+C:\Users\My DELL\Documents\Dev\Malikah\Malikah.Api\obj\Debug\netcoreapp2.0\Malikah.Api.AssemblyInfoInputs.cache
+C:\Users\My DELL\Documents\Dev\Malikah\Malikah.Api\obj\Debug\netcoreapp2.0\Malikah.Api.AssemblyInfo.cs
+C:\Users\My DELL\Documents\Dev\Malikah\Malikah.Api\bin\Debug\netcoreapp2.0\Malikah.Api.pdb
+C:\Users\My DELL\Documents\Dev\Malikah\Malikah.Api\obj\Debug\netcoreapp2.0\Malikah.Api.dll
+C:\Users\My DELL\Documents\Dev\Malikah\Malikah.Api\obj\Debug\netcoreapp2.0\Malikah.Api.pdb
