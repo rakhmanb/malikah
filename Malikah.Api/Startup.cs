@@ -42,7 +42,7 @@ namespace Malikah.Api
             services.AddAuthentication("Bearer")
                 .AddIdentityServerAuthentication(options =>
                 {
-                    options.Authority = "http://localhost:5000";
+                    options.Authority = "http://identity:5000";
                     options.RequireHttpsMetadata = false;
                     options.RoleClaimType = ClaimTypes.Role;
                     options.ApiName = "api1";

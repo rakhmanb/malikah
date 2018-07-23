@@ -127,16 +127,16 @@ namespace Malikah.Identity
                         new Secret("malikah1gr8".Sha256())
                     },
 
-                    FrontChannelLogoutUri = "http://malikahatelier-test.com/signout-callback-oidc.php",
+                    FrontChannelLogoutUri = "http://localhost:8080/signout-callback-oidc.php",
 
                     RedirectUris = {
-                        "http://malikahatelier-test.com/login-oidc.php",
-                        "http://malikahatelier-test.com/logout-oidc.php",
+                        "http://localhost:8080/login-oidc.php",
+                        "http://localhost:8080/logout-oidc.php",
                         "http://malikah-linux.azurewebsites.net/login-oidc.php",
                         "http://malikah-linux.azurewebsites.net/logout-oidc.php"
                     },
                     PostLogoutRedirectUris = {
-                        "http://malikahatelier-test.com/signout-callback-oidc.php",
+                        "http://localhost:8080/signout-callback-oidc.php",
                         "http://malikah-linux.azurewebsites.net/logout-oidc.php"
                     },
 

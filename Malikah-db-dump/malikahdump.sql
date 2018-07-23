@@ -18,6 +18,7 @@
 --
 -- Table structure for table `blog`
 --
+USE `malikah`;
 
 DROP TABLE IF EXISTS `blog`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;

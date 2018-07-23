@@ -26,8 +26,8 @@ define('WEB_FOLDER','/'); //with trailing slash pls
 define('VIEW_PATH','app/views/'); //with trailing slash pls
 //define('AUTH_URL', (getenv('AUTH_URL') !== null ? getenv('AUTH_URL') : 'http://localhost:5000'));
 
-$domain = (getenv('DOMAIN') ? getenv('DOMAIN') : 'http://malikahatelier-test.com');
-$auth_url = (getenv('AUTH_URL') ? getenv('AUTH_URL') : 'http://localhost:5000');
+$domain = (getenv('DOMAIN') ? getenv('DOMAIN') : 'http://localhost:8080');
+$auth_url = (getenv('AUTH_URL') ? getenv('AUTH_URL') : 'http://identity:5000');
 
 define('WEB_DOMAIN', $domain); //with http:// and NO trailing slash pls
 define('AUTH_URL', $auth_url);
@@ -85,7 +85,7 @@ function getdbh() {
   if (!isset($GLOBALS['dbh']))
     try
 	{
-		$GLOBALS['dbh'] = new PDO('mysql:host=localhost;dbname=malikah', 'root', 'BimAyu1221!');
+		$GLOBALS['dbh'] = new PDO('mysql:host=mysqldb;dbname=malikah', 'root', 'BimAyu1221!');
 	}
 	catch (PDOException $e)
 	{
