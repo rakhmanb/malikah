@@ -70,6 +70,7 @@ try {
 }
 catch(Exception $e) {
     echo "fail...";
+    echo $e;
     ?>
         <script type="text/javascript">
             parent.postMessage("Exception",'<?php echo WEB_DOMAIN; ?>');

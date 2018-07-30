@@ -300,7 +300,7 @@
 					if(!isset($_SESSION['Username'])){
 				?>
 
-				<iframe id='actionframe' style="display:none;" src="http://malikahatelier-test.com/login-oidc.php?prompt=false">
+				<iframe id='actionframe' style="display:none;" src="http://malikahatelier.com/login-oidc.php?prompt=false">
 				</iframe>
 
 				<?php

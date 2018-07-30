@@ -17,14 +17,14 @@ $oidc = new OpenIDConnectClient(AUTH_URL,
 
 $cookie_name = "AccessToken";
 
-$respTypes = array('code', 'id_token');
+//$respTypes = array('code', 'id_token');
 
-$oidc->setResponseTypes($respTypes);
-$oidc->addScope("profile");
-$oidc->addScope("openid");
-$oidc->setRedirectURL(WEB_DOMAIN."/logout-oidc.php");
-$oidc->addAuthParam(array('response_mode' => 'form_post'));
-$oidc->authenticate();
+//$oidc->setResponseTypes($respTypes);
+//$oidc->addScope("profile");
+//$oidc->addScope("openid");
+//$oidc->setRedirectURL(WEB_DOMAIN."/logout-oidc.php");
+//$oidc->addAuthParam(array('response_mode' => 'form_post'));
+//$oidc->authenticate();
 
 $oidc->signOut( $_COOKIE[$cookie_name],WEB_DOMAIN."/signout-callback-oidc.php");
 

@@ -101,6 +101,7 @@ namespace Malikah.Identity
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
 
+            CreateRoles(serviceProvider).Wait();
         }
 
         private async Task CreateRoles(IServiceProvider serviceProvider)
