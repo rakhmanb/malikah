@@ -6,7 +6,7 @@
     {
       //$data['body'][]=View::do_fetch(VIEW_PATH.'account/index.php');
       //View::do_dump(VIEW_PATH.'layouts/mainlayout.php',$data);
-      header("Location: http://login.malikahatelier.com/Manage/Index");
+      header("Location: ".AUTH_URL."/Manage/Index");
     }
     else
     {

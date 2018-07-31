@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Malikah.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.Extensions.Configuration;
 using System.Net.Http;
 using Newtonsoft.Json.Linq;
 using IdentityModel.Client;
@@ -17,6 +18,11 @@ namespace Malikah.Controllers
     [Authorize (Roles = "Admin,Manager")]
     public class HomeController : Controller
     {
+        private IConfiguration Configuration {get;}
+        public HomeController(IConfiguration configuration)
+        {
+            Configuration = configuration;
+        }
         public IActionResult Index()
         {
             return View();
@@ -56,7 +62,10 @@ namespace Malikah.Controllers
 
             var client = new HttpClient();
             client.SetBearerToken(accessToken);
-            var content = await client.GetStringAsync("http://localhost:5003/api/items");
+
+            var apiURL = Configuration.GetValue<string>("API_URL");
+
+            var content = await client.GetStringAsync(apiURL + "/api/items");
 
             ViewBag.Json = JArray.Parse(content).ToString();
             return View("json");
@@ -68,7 +77,10 @@ namespace Malikah.Controllers
 
             var client = new HttpClient();
             client.SetBearerToken(accessToken);
-            var content = await client.GetStringAsync("http://localhost:5003/api/collections");
+
+            var apiURL = Configuration.GetValue<string>("API_URL");
+
+            var content = await client.GetStringAsync(apiURL + "/api/collections");
 
             ViewBag.Json = JArray.Parse(content).ToString();
             return View("json");

@@ -11,17 +11,21 @@ services:
     identity:
         build: ./Malikah.Identity
         ports:
-            - "5000:80"
+            - "5000:5000"
         depends_on:
             - db
+        environment:
+          ASPNETCORE_URLS: "http://+:5000"
             
     api:
         build: ./Malikah.Api
         ports:
-            - "5003:80"
+            - "5003:5003"
         depends_on:
             - mysqldb
             - identity
+        environment:
+          ASPNETCORE_URLS: "http://+:5003"
     admin:
         build: ./Malikah
         ports:
@@ -29,11 +33,16 @@ services:
         depends_on:
             - mysqldb
             - identity
+            - api
 
     store:
         build: ./Malikah.Store
         ports:
             - "8080:80"
+        environment:
+            CONNSTRING: mysql:host=mysqldb;dbname=malikah;SSL=true
+            MYSQLUSERNAME: root
+            MYSQLPASSWORD: BimAyu1221!
         depends_on:
             - mysqldb
             - identity

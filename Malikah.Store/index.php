@@ -27,7 +27,7 @@ define('VIEW_PATH','app/views/'); //with trailing slash pls
 //define('AUTH_URL', (getenv('AUTH_URL') !== null ? getenv('AUTH_URL') : 'http://localhost:5000'));
 
 $domain = (getenv('DOMAIN') ? getenv('DOMAIN') : 'http://localhost:8080');
-$auth_url = (getenv('AUTH_URL') ? getenv('AUTH_URL') : 'http://localhost:5000');
+$auth_url = (getenv('AUTH_URL') ? getenv('AUTH_URL') : 'http://identity:5000');
 
 define('WEB_DOMAIN', $domain); //with http:// and NO trailing slash pls
 define('AUTH_URL', $auth_url);
