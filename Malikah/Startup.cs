@@ -37,7 +37,7 @@ namespace Malikah
                 {
                     options.SignInScheme = "Cookies";
 
-                    options.Authority = @"http://identity:5000";
+                    options.Authority = Configuration.GetValue<string>("AUTH_URL");
                     options.RequireHttpsMetadata = false;
 
                     options.ClientId = "mvc";

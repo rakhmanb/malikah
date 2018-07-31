@@ -1,10 +1,11 @@
 FROM microsoft/dotnet:sdk AS build-env
 WORKDIR /app
+ENV ASPNETCORE_URLS=http://+:5002
+EXPOSE 5002
 
 # Copy csproj and restore as distinct layers
 COPY *.csproj ./
 RUN dotnet restore
-ENV ASPNETCORE_URLS=http://+:5002
 
 # Copy everything else and build
 COPY . ./
