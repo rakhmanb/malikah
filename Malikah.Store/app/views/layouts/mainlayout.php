@@ -197,7 +197,7 @@
           <li><a href="/ourstory">Our Story</a></li>
         </ul>
       </li>
-			<li class="dropdown shop">
+			<li style="display:none;" class="dropdown shop">
         <a href="/shop" class="dropdown-toggle shop" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shop<span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="/collection">Collection</a></li>
